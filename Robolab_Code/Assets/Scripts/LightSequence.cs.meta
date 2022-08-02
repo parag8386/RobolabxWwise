@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7933c39861079d34bb1b1ab47e2f7d3b
+timeCreated: 1539882268
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - AudioFlicker: {instanceID: 0}
+  - AudioRedLight: {fileID: 8300000, guid: 913a96b585a684649aeb7bbb0931d460, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

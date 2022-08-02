@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{EF400AB5-AA0B-4262-A3E3-33CD981C52CE}" SchemaVersion="94" RootDocumentID="{F5682A68-046F-464E-91D8-FF74F75D924A}">
+	<AudioObjects>
+		<WorkUnit Name="Amb" ID="{EF400AB5-AA0B-4262-A3E3-33CD981C52CE}" OwnerID="{F5682A68-046F-464E-91D8-FF74F75D924A}" PersistMode="Nested">
+			<ChildrenList>
+				<ActorMixer Name="Room" ID="{BF160C22-BB43-4474-ABF6-71E35DFB8C4C}" ShortID="792783021">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4BAC6818-33C7-45D0-9AB9-C5E8A8294397}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{D43E9432-937A-49DD-B477-9B240CCA168E}" WorkUnitID="{B6CDEF7E-92A3-4AC4-9ED3-061DE7002CF4}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Ambience" ID="{12EB2963-2A6C-46CD-A536-47C6ADEEAE41}" ShortID="560207989">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4BAC6818-33C7-45D0-9AB9-C5E8A8294397}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B6CDEF7E-92A3-4AC4-9ED3-061DE7002CF4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Ambience" ID="{3E6E6012-84BD-4C6D-9ED6-B4ECEDF3FB0D}" ShortID="508167538">
+									<Language>SFX</Language>
+									<AudioFile>Ambience\Ambience.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Ambience" ID="{3E6E6012-84BD-4C6D-9ED6-B4ECEDF3FB0D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Indoorlab" ID="{63722911-79B8-4CB5-90DD-088FB8AAB224}" ShortID="346296552">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4BAC6818-33C7-45D0-9AB9-C5E8A8294397}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B6CDEF7E-92A3-4AC4-9ED3-061DE7002CF4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="indoorlab" ID="{0B98875D-2FB2-4682-82C6-B8229D170913}" ShortID="573369714">
+									<Language>SFX</Language>
+									<AudioFile>Sounds\indoorlab.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="indoorlab" ID="{0B98875D-2FB2-4682-82C6-B8229D170913}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

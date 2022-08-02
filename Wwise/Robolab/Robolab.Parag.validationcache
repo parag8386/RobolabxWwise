@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationCache Version="1" SchemaVersion="94">
+	<ValidationCacheItem File="C:\Wwise\Robolab\Robolab\Actor-Mixer Hierarchy\Amb.wwu" DateLow="1633460372" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Wwise\Robolab\Robolab\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1633459546" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Wwise\Robolab\Robolab\Actor-Mixer Hierarchy\Factory Motion.wwu" DateLow="1557323912" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Wwise\Robolab\Robolab\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects.wwu" DateLow="1557323939" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Wwise\Robolab\Robolab\Actor-Mixer Hierarchy\Factory SoundSeed Grain.wwu" DateLow="1557324074" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Wwise\Robolab\Robolab\Actor-Mixer Hierarchy\Factory Synth One.wwu" DateLow="1557323842" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Wwise\Robolab\Robolab\Actor-Mixer Hierarchy\SFX.wwu" DateLow="1633461135" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Wwise\Robolab\Robolab\Actor-Mixer Hierarchy\Voice.wwu" DateLow="1633460927" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Wwise\Robolab\Robolab\Attenuations\Default Work Unit.wwu" DateLow="1633458853" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Wwise\Robolab\Robolab\Audio Devices\Default Work Unit.wwu" DateLow="1633458853" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Wwise\Robolab\Robolab\Control Surface Sessions\Default Work Unit.wwu" DateLow="1633458853" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Wwise\Robolab\Robolab\Conversion Settings\Default Work Unit.wwu" DateLow="1633458853" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Wwise\Robolab\Robolab\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1557323842" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Wwise\Robolab\Robolab\Conversion Settings\Factory SoundSeed Grain.wwu" DateLow="1557324074" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Wwise\Robolab\Robolab\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1633461510" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Wwise\Robolab\Robolab\Effects\Default Work Unit.wwu" DateLow="1633458853" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Wwise\Robolab\Robolab\Effects\Factory Auro Headphone.wwu" DateLow="1557323961" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Wwise\Robolab\Robolab\Effects\Factory Convolution Reverb Effects Ambisonics.wwu" DateLow="1557324050" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Wwise\Robolab\Robolab\Effects\Factory Convolution Reverb Effects Stereo.wwu" DateLow="1557324054" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Wwise\Robolab\Robolab\Effects\Factory Effects.wwu" DateLow="1557323842" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Wwise\Robolab\Robolab\Effects\Factory iZotope Box Modeler.wwu" DateLow="1557323952" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Wwise\Robolab\Robolab\Effects\Factory iZotope Delay.wwu" DateLow="1557323952" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Wwise\Robolab\Robolab\Effects\Factory iZotope Dynamics.wwu" DateLow="1557323952" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Wwise\Robolab\Robolab\Effects\Factory iZotope Filters.wwu" DateLow="1557323952" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Wwise\Robolab\Robolab\Effects\Factory iZotope Hybrid Reverb Effects.wwu" DateLow="1557323952" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Wwise\Robolab\Robolab\Effects\Factory iZotope Multiband Distortion.wwu" DateLow="1557323952" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Wwise\Robolab\Robolab\Effects\Factory iZotope Singleband Distortion.wwu" DateLow="1557323952" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Wwise\Robolab\Robolab\Effects\Factory McDSP Effects.wwu" DateLow="1557323942" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Wwise\Robolab\Robolab\Events\Default Work Unit.wwu" DateLow="1633461646" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Wwise\Robolab\Robolab\Game Parameters\Default Work Unit.wwu" DateLow="1633458853" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Wwise\Robolab\Robolab\Game Parameters\Factory Motion.wwu" DateLow="1557323912" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Wwise\Robolab\Robolab\Game Parameters\Factory SoundSeed Air Game Syncs.wwu" DateLow="1557323939" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Wwise\Robolab\Robolab\Game Parameters\Factory SoundSeed Grain.wwu" DateLow="1557324074" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Wwise\Robolab\Robolab\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1633461260" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Wwise\Robolab\Robolab\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1633458853" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Wwise\Robolab\Robolab\Mixing Sessions\Default Work Unit.wwu" DateLow="1633458853" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Wwise\Robolab\Robolab\Modulators\Default Work Unit.wwu" DateLow="1633458853" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Wwise\Robolab\Robolab\Presets\Default Work Unit.wwu" DateLow="1633458853" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Wwise\Robolab\Robolab\Queries\Default Work Unit.wwu" DateLow="1633458853" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Wwise\Robolab\Robolab\Queries\Factory Queries.wwu" DateLow="1557323842" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Wwise\Robolab\Robolab\Robolab.Parag.wsettings" DateLow="1633461667" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Wwise\Robolab\Robolab\Robolab.wproj" DateLow="1633459461" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Wwise\Robolab\Robolab\SoundBanks\Default Work Unit.wwu" DateLow="1633461336" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Wwise\Robolab\Robolab\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1633458853" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Wwise\Robolab\Robolab\States\Default Work Unit.wwu" DateLow="1633458853" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Wwise\Robolab\Robolab\Switches\Default Work Unit.wwu" DateLow="1633458853" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Wwise\Robolab\Robolab\Triggers\Default Work Unit.wwu" DateLow="1633458853" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Wwise\Robolab\Robolab\Virtual Acoustics\Default Work Unit.wwu" DateLow="1633458853" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Wwise\Robolab\Robolab\Virtual Acoustics\Factory Reflect Acoustic Textures.wwu" DateLow="1557323941" DateHigh="0"/>
+</ValidationCache>

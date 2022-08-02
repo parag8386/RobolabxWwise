@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="134">
+	<RootPaths>
+		<ProjectRoot>C:\Wwise\Robolab\Robolab\</ProjectRoot>
+		<SourceFilesRoot>C:\Wwise\Robolab\Robolab\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Wwise\Robolab\Robolab\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Wwise\Robolab\Robolab\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="393239870" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
+			<ShortName>SFX</ShortName>
+			<Path>SFX.bnk</Path>
+			<IncludedEvents>
+				<Event Id="832851525" Name="Play_alarm_01" ObjectPath="\Events\Default Work Unit\SFX\Play_alarm_01"/>
+				<Event Id="832851526" Name="Play_alarm_02" ObjectPath="\Events\Default Work Unit\SFX\Play_alarm_02"/>
+				<Event Id="832851527" Name="Play_alarm_03" ObjectPath="\Events\Default Work Unit\SFX\Play_alarm_03"/>
+				<Event Id="278617630" Name="Play_Ambience" ObjectPath="\Events\Default Work Unit\SFX\Play_Ambience"/>
+				<Event Id="2757069037" Name="Play_fan" ObjectPath="\Events\Default Work Unit\SFX\Play_fan"/>
+				<Event Id="4112445110" Name="Play_fan_blade" ObjectPath="\Events\Default Work Unit\SFX\Play_fan_blade"/>
+				<Event Id="4284053745" Name="Play_glasspad" ObjectPath="\Events\Default Work Unit\SFX\Play_glasspad"/>
+				<Event Id="245143100" Name="Play_Indoorlab" ObjectPath="\Events\Default Work Unit\SFX\Play_Indoorlab"/>
+				<Event Id="384671264" Name="Play_Lights_Flicker" ObjectPath="\Events\Default Work Unit\SFX\Play_Lights_Flicker"/>
+				<Event Id="406918311" Name="Play_Lights_On" ObjectPath="\Events\Default Work Unit\SFX\Play_Lights_On"/>
+				<Event Id="948866160" Name="Play_popup" ObjectPath="\Events\Default Work Unit\SFX\Play_popup"/>
+				<Event Id="3045242701" Name="Play_powerdown_01" ObjectPath="\Events\Default Work Unit\SFX\Play_powerdown_01"/>
+				<Event Id="3045242702" Name="Play_powerdown_02" ObjectPath="\Events\Default Work Unit\SFX\Play_powerdown_02"/>
+				<Event Id="2876792902" Name="Play_powerup" ObjectPath="\Events\Default Work Unit\SFX\Play_powerup"/>
+				<Event Id="1863306705" Name="Play_radio_off" ObjectPath="\Events\Default Work Unit\SFX\Play_radio_off"/>
+				<Event Id="2948213189" Name="Play_radio_on" ObjectPath="\Events\Default Work Unit\SFX\Play_radio_on"/>
+				<Event Id="2931782723" Name="Play_robot_arm_motor" ObjectPath="\Events\Default Work Unit\SFX\Play_robot_arm_motor"/>
+				<Event Id="1204677452" Name="Play_robot_battering_ram" ObjectPath="\Events\Default Work Unit\SFX\Play_robot_battering_ram"/>
+				<Event Id="423060956" Name="Play_static" ObjectPath="\Events\Default Work Unit\SFX\Play_static"/>
+				<Event Id="1220490213" Name="Play_Terminals" ObjectPath="\Events\Default Work Unit\SFX\Play_Terminals"/>
+				<Event Id="39905151" Name="Play_turbine" ObjectPath="\Events\Default Work Unit\SFX\Play_turbine"/>
+				<Event Id="1659138091" Name="Play_Typing" ObjectPath="\Events\Default Work Unit\SFX\Play_Typing"/>
+				<Event Id="186661467" Name="Stop_alarm_01" ObjectPath="\Events\Default Work Unit\SFX\Stop_alarm_01"/>
+				<Event Id="186661464" Name="Stop_alarm_02" ObjectPath="\Events\Default Work Unit\SFX\Stop_alarm_02"/>
+				<Event Id="186661465" Name="Stop_alarm_03" ObjectPath="\Events\Default Work Unit\SFX\Stop_alarm_03"/>
+				<Event Id="452547817" Name="Stop_All" ObjectPath="\Events\Default Work Unit\SFX\Stop_All"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="135733143" Language="SFX">
+					<ShortName>Sounds\popup.wav</ShortName>
+					<Path>SFX\Sounds\popup_10C4C929.wem</Path>
+				</File>
+				<File Id="149743793" Language="SFX">
+					<ShortName>Sounds\typing_02.wav</ShortName>
+					<Path>SFX\Sounds\typing_02_10C4C929.wem</Path>
+				</File>
+				<File Id="217909898" Language="SFX">
+					<ShortName>Sounds\robot_arm_motor.wav</ShortName>
+					<Path>SFX\Sounds\robot_arm_motor_10C4C929.wem</Path>
+				</File>
+				<File Id="289511662" Language="SFX">
+					<ShortName>Sounds\light_flicker_02.wav</ShortName>
+					<Path>SFX\Sounds\light_flicker_02_10C4C929.wem</Path>
+				</File>
+				<File Id="312541516" Language="SFX">
+					<ShortName>Sounds\typing_01.wav</ShortName>
+					<Path>SFX\Sounds\typing_01_10C4C929.wem</Path>
+				</File>
+				<File Id="334402990" Language="SFX">
+					<ShortName>Sounds\glasspad.wav</ShortName>
+					<Path>SFX\Sounds\glasspad_10C4C929.wem</Path>
+				</File>
+				<File Id="380518648" Language="SFX">
+					<ShortName>Sounds\robot_battering_ram.wav</ShortName>
+					<Path>SFX\Sounds\robot_battering_ram_10C4C929.wem</Path>
+				</File>
+				<File Id="380624205" Language="SFX">
+					<ShortName>Sounds\light_flicker_03.wav</ShortName>
+					<Path>SFX\Sounds\light_flicker_03_10C4C929.wem</Path>
+				</File>
+				<File Id="382727337" Language="SFX">
+					<ShortName>Sounds\alarm_03.wav</ShortName>
+					<Path>SFX\Sounds\alarm_03_D79FB2B7.wem</Path>
+				</File>
+				<File Id="404631437" Language="SFX">
+					<ShortName>Sounds\radio_off.wav</ShortName>
+					<Path>SFX\Sounds\radio_off_10C4C929.wem</Path>
+				</File>
+				<File Id="455297041" Language="SFX">
+					<ShortName>Sounds\typing_03.wav</ShortName>
+					<Path>SFX\Sounds\typing_03_10C4C929.wem</Path>
+				</File>
+				<File Id="508167538" Language="SFX">
+					<ShortName>Ambience\Ambience.wav</ShortName>
+					<Path>SFX\Ambience\Ambience_10C4C929.wem</Path>
+				</File>
+				<File Id="546594104" Language="SFX">
+					<ShortName>Sounds\powerdown_02.wav</ShortName>
+					<Path>SFX\Sounds\powerdown_02_10C4C929.wem</Path>
+				</File>
+				<File Id="573369714" Language="SFX">
+					<ShortName>Sounds\indoorlab.wav</ShortName>
+					<Path>SFX\Sounds\indoorlab_10C4C929.wem</Path>
+				</File>
+				<File Id="581975956" Language="SFX">
+					<ShortName>Sounds\fan_blade.wav</ShortName>
+					<Path>SFX\Sounds\fan_blade_D79FB2B7.wem</Path>
+				</File>
+				<File Id="584632206" Language="SFX">
+					<ShortName>lights_on_01.wav</ShortName>
+					<Path>SFX\lights_on_01_10C4C929.wem</Path>
+				</File>
+				<File Id="608514660" Language="SFX">
+					<ShortName>Sounds\turbine.wav</ShortName>
+					<Path>SFX\Sounds\turbine_10C4C929.wem</Path>
+				</File>
+				<File Id="652417740" Language="SFX">
+					<ShortName>Sounds\light_flicker_01.wav</ShortName>
+					<Path>SFX\Sounds\light_flicker_01_10C4C929.wem</Path>
+				</File>
+				<File Id="684232445" Language="SFX">
+					<ShortName>Sounds\mach_01.wav</ShortName>
+					<Path>SFX\Sounds\mach_01_10C4C929.wem</Path>
+				</File>
+				<File Id="693315936" Language="SFX">
+					<ShortName>Sounds\fan.wav</ShortName>
+					<Path>SFX\Sounds\fan_10C4C929.wem</Path>
+				</File>
+				<File Id="727963538" Language="SFX">
+					<ShortName>Sounds\powerup.wav</ShortName>
+					<Path>SFX\Sounds\powerup_10C4C929.wem</Path>
+				</File>
+				<File Id="753956590" Language="SFX">
+					<ShortName>Sounds\mach_02.wav</ShortName>
+					<Path>SFX\Sounds\mach_02_10C4C929.wem</Path>
+				</File>
+				<File Id="758196176" Language="SFX">
+					<ShortName>Sounds\light_flicker_04.wav</ShortName>
+					<Path>SFX\Sounds\light_flicker_04_10C4C929.wem</Path>
+				</File>
+				<File Id="853147906" Language="SFX">
+					<ShortName>lights_on_02.wav</ShortName>
+					<Path>SFX\lights_on_02_10C4C929.wem</Path>
+				</File>
+				<File Id="856892437" Language="SFX">
+					<ShortName>lights_on_03.wav</ShortName>
+					<Path>SFX\lights_on_03_10C4C929.wem</Path>
+				</File>
+				<File Id="892562666" Language="SFX">
+					<ShortName>Sounds\alarm_01.wav</ShortName>
+					<Path>SFX\Sounds\alarm_01_D79FB2B7.wem</Path>
+				</File>
+				<File Id="906503232" Language="SFX">
+					<ShortName>Sounds\alarm_02.wav</ShortName>
+					<Path>SFX\Sounds\alarm_02_D79FB2B7.wem</Path>
+				</File>
+				<File Id="910164573" Language="SFX">
+					<ShortName>Sounds\mach_03.wav</ShortName>
+					<Path>SFX\Sounds\mach_03_10C4C929.wem</Path>
+				</File>
+				<File Id="923942877" Language="SFX">
+					<ShortName>Sounds\radio_on.wav</ShortName>
+					<Path>SFX\Sounds\radio_on_10C4C929.wem</Path>
+				</File>
+				<File Id="972958394" Language="SFX">
+					<ShortName>Sounds\static.wav</ShortName>
+					<Path>SFX\Sounds\static_10C4C929.wem</Path>
+				</File>
+				<File Id="979419685" Language="SFX">
+					<ShortName>Sounds\powerdown_01.wav</ShortName>
+					<Path>SFX\Sounds\powerdown_01_10C4C929.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1534528548" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\VO</ObjectPath>
+			<ShortName>VO</ShortName>
+			<Path>VO.bnk</Path>
+			<IncludedEvents>
+				<Event Id="4240237452" Name="Play_VO_F_Line01" ObjectPath="\Events\Default Work Unit\VO\Play_VO_F_Line01"/>
+				<Event Id="4240237455" Name="Play_VO_F_Line02" ObjectPath="\Events\Default Work Unit\VO\Play_VO_F_Line02"/>
+				<Event Id="4240237454" Name="Play_VO_F_Line03" ObjectPath="\Events\Default Work Unit\VO\Play_VO_F_Line03"/>
+				<Event Id="4240237449" Name="Play_VO_F_Line04" ObjectPath="\Events\Default Work Unit\VO\Play_VO_F_Line04"/>
+				<Event Id="4240237448" Name="Play_VO_F_Line05" ObjectPath="\Events\Default Work Unit\VO\Play_VO_F_Line05"/>
+				<Event Id="4240237451" Name="Play_VO_F_Line06" ObjectPath="\Events\Default Work Unit\VO\Play_VO_F_Line06"/>
+				<Event Id="4240237450" Name="Play_VO_F_Line07" ObjectPath="\Events\Default Work Unit\VO\Play_VO_F_Line07"/>
+				<Event Id="4240237445" Name="Play_VO_F_Line08" ObjectPath="\Events\Default Work Unit\VO\Play_VO_F_Line08"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="87206287" Language="SFX">
+					<ShortName>VO\VO_F_Line05.wav</ShortName>
+					<Path>SFX\VO\VO_F_Line05_10C4C929.wem</Path>
+				</File>
+				<File Id="286299075" Language="SFX">
+					<ShortName>VO\VO_F_Line02.wav</ShortName>
+					<Path>SFX\VO\VO_F_Line02_10C4C929.wem</Path>
+				</File>
+				<File Id="384016931" Language="SFX">
+					<ShortName>VO\VO_F_Line08.wav</ShortName>
+					<Path>SFX\VO\VO_F_Line08_10C4C929.wem</Path>
+				</File>
+				<File Id="546318144" Language="SFX">
+					<ShortName>VO\VO_F_Line07.wav</ShortName>
+					<Path>SFX\VO\VO_F_Line07_10C4C929.wem</Path>
+				</File>
+				<File Id="585917536" Language="SFX">
+					<ShortName>VO\VO_F_Line06.wav</ShortName>
+					<Path>SFX\VO\VO_F_Line06_10C4C929.wem</Path>
+				</File>
+				<File Id="720972709" Language="SFX">
+					<ShortName>VO\VO_F_Line03.wav</ShortName>
+					<Path>SFX\VO\VO_F_Line03_10C4C929.wem</Path>
+				</File>
+				<File Id="938217012" Language="SFX">
+					<ShortName>VO\VO_F_Line01.wav</ShortName>
+					<Path>SFX\VO\VO_F_Line01_10C4C929.wem</Path>
+				</File>
+				<File Id="1044944841" Language="SFX">
+					<ShortName>VO\VO_F_Line04 .wav</ShortName>
+					<Path>SFX\VO\VO_F_Line04 _10C4C929.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="3991942870" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
+			<ShortName>Music</ShortName>
+			<Path>Music.bnk</Path>
+			<IncludedEvents>
+				<Event Id="433710372" Name="Play_Music_Loop" ObjectPath="\Events\Default Work Unit\Music\Play_Music_Loop"/>
+				<Event Id="3130332582" Name="Stop_Music_Loop" ObjectPath="\Events\Default Work Unit\Music\Stop_Music_Loop"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="120577724" Language="SFX">
+					<ShortName>Music\Fats Waller - Ain't Misbehavin' - Stormy Weather (1943).wav</ShortName>
+					<Path>SFX\Music\Fats Waller - Ain't Misbehavin' - Stormy Weather (1943)_D79FB2B7.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

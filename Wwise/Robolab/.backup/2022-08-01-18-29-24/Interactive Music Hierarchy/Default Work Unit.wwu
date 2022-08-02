@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F711086E-C7F5-469B-9DD6-34676A00D078}" SchemaVersion="94">
+	<InteractiveMusic>
+		<WorkUnit Name="Default Work Unit" ID="{F711086E-C7F5-469B-9DD6-34676A00D078}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicSegment Name="Music_Loop" ID="{BE303D2B-870F-4DC6-AAA1-E9C8A52D28EF}" ShortID="624482962">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="EndPosition" Type="Real64" Value="166687.346938776"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<Custom>
+								<Attenuation Name="Attenuation (Custom)" ID="{B3698B61-6A11-4E6E-AED0-EF70599B087F}" ShortID="320253323">
+									<PropertyList>
+										<Property Name="RadiusMax" Type="Real64" Value="15"/>
+									</PropertyList>
+									<CurveUsageInfoList>
+										<VolumeDryUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="VolumeDry" ID="{B2E4EDAC-9E9E-45D3-98AC-EEE8AF798E86}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="3"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+															<SegmentShape>Log3</SegmentShape>
+														</Point>
+														<Point>
+															<XPos>15</XPos>
+															<YPos>-31.26962</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</VolumeDryUsage>
+										<VolumeWetGameUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetGameUsage>
+										<VolumeWetUserUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetUserUsage>
+										<LowPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</LowPassFilterUsage>
+										<HighPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</HighPassFilterUsage>
+										<SpreadUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</SpreadUsage>
+										<FocusUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</FocusUsage>
+									</CurveUsageInfoList>
+								</Attenuation>
+							</Custom>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4BAC6818-33C7-45D0-9AB9-C5E8A8294397}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Music" ID="{BCF41F86-D8AB-4D74-940B-6652C33AF63B}" WorkUnitID="{B6CDEF7E-92A3-4AC4-9ED3-061DE7002CF4}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="Fats Waller - Ain't Misbehavin' - Stormy Weather (1943)" ID="{3D282CC8-40D5-41D2-8043-9A94EDB3C393}" ShortID="1001508374">
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B6CDEF7E-92A3-4AC4-9ED3-061DE7002CF4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Fats Waller - Ain't Misbehavin' - Stormy Weather (1943)" ID="{025BDD89-6855-4576-98D5-80D3647ECE97}" ShortID="120577724">
+									<Language>SFX</Language>
+									<AudioFile>Music\Fats Waller - Ain't Misbehavin' - Stormy Weather (1943).wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{6A9C5795-C3E5-4411-BE4A-D4582CE629AB}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<SequenceList>
+								<MusicTrackSequence Name="" ID="{247DBB14-5F76-4F7E-9FEA-47E909FA0529}">
+									<ClipList>
+										<MusicClip Name="Fats Waller - Ain't Misbehavin' - Stormy Weather (1943)" ID="{CE6D3168-668B-41B2-BC3D-B0CA650F83F4}">
+											<PropertyList>
+												<Property Name="EndTrimOffset" Type="Real64" Value="166687.346938776"/>
+												<Property Name="FadeInMode" Type="int16" Value="0"/>
+												<Property Name="FadeOutMode" Type="int16" Value="0"/>
+											</PropertyList>
+											<AudioSourceRef Name="Fats Waller - Ain't Misbehavin' - Stormy Weather (1943)" ID="{025BDD89-6855-4576-98D5-80D3647ECE97}"/>
+										</MusicClip>
+									</ClipList>
+								</MusicTrackSequence>
+							</SequenceList>
+						</MusicTrack>
+					</ChildrenList>
+					<CueList>
+						<MusicCue Name="Entry Cue" ID="{DA132B10-66CB-4A43-9168-1CA16823DA4F}"/>
+						<MusicCue Name="Exit Cue" ID="{BC07FFC4-E2CC-493E-B79B-9BBE2A0FC9EA}">
+							<PropertyList>
+								<Property Name="CueType" Type="int16" Value="1"/>
+								<Property Name="TimeMs" Type="Real64" Value="1000"/>
+							</PropertyList>
+						</MusicCue>
+					</CueList>
+				</MusicSegment>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>

@@ -1,0 +1,20 @@
+Event	ID	Name			Wwise Object Path	Notes
+	4240237445	Play_VO_F_Line08			\Default Work Unit\VO\Play_VO_F_Line08	
+	4240237448	Play_VO_F_Line05			\Default Work Unit\VO\Play_VO_F_Line05	
+	4240237449	Play_VO_F_Line04			\Default Work Unit\VO\Play_VO_F_Line04	
+	4240237450	Play_VO_F_Line07			\Default Work Unit\VO\Play_VO_F_Line07	
+	4240237451	Play_VO_F_Line06			\Default Work Unit\VO\Play_VO_F_Line06	
+	4240237452	Play_VO_F_Line01			\Default Work Unit\VO\Play_VO_F_Line01	
+	4240237454	Play_VO_F_Line03			\Default Work Unit\VO\Play_VO_F_Line03	
+	4240237455	Play_VO_F_Line02			\Default Work Unit\VO\Play_VO_F_Line02	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	87206287	VO_F_Line05	C:\Wwise\Robolab\Robolab\.cache\Windows\SFX\VO\VO_F_Line05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Female_VO\VO_F_Line05		661066
+	286299075	VO_F_Line02	C:\Wwise\Robolab\Robolab\.cache\Windows\SFX\VO\VO_F_Line02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Female_VO\VO_F_Line02		1799428
+	384016931	VO_F_Line08	C:\Wwise\Robolab\Robolab\.cache\Windows\SFX\VO\VO_F_Line08_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Female_VO\VO_F_Line08		235130
+	546318144	VO_F_Line07	C:\Wwise\Robolab\Robolab\.cache\Windows\SFX\VO\VO_F_Line07_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Female_VO\VO_F_Line07		738168
+	585917536	VO_F_Line06	C:\Wwise\Robolab\Robolab\.cache\Windows\SFX\VO\VO_F_Line06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Female_VO\VO_F_Line06		412838
+	720972709	VO_F_Line03	C:\Wwise\Robolab\Robolab\.cache\Windows\SFX\VO\VO_F_Line03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Female_VO\VO_F_Line03		1681248
+	938217012	VO_F_Line01	C:\Wwise\Robolab\Robolab\.cache\Windows\SFX\VO\VO_F_Line01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Female_VO\VO_F_Line01		1318274
+	1044944841	VO_F_Line04 	C:\Wwise\Robolab\Robolab\.cache\Windows\SFX\VO\VO_F_Line04 _10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Female_VO\VO_F_Line04 		882028
+
