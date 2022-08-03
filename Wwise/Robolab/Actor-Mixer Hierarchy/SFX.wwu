@@ -215,6 +215,11 @@
 								<Sound Name="alarm_02_loop" ID="{E06DE0CA-1D3F-4E70-A7C6-1100DD99FE63}" ShortID="178751732">
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="IsStreamingEnabled" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -240,6 +245,11 @@
 								<Sound Name="alarm_03_loop" ID="{1140BA99-5FA2-4CC7-9D61-59869F64FF90}" ShortID="534171566">
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="IsStreamingEnabled" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
