@@ -57,7 +57,7 @@
 								<ActiveSource Name="VO_F_Line03" ID="{669BF1A7-650D-4D2C-84EB-30DDBD9250AB}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="VO_F_Line04 " ID="{0457B181-7F8E-444E-A19D-D3DC6A041A8D}" ShortID="111174706">
+						<Sound Name="VO_F_Line04" ID="{0457B181-7F8E-444E-A19D-D3DC6A041A8D}" ShortID="111174706">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4BAC6818-33C7-45D0-9AB9-C5E8A8294397}"/>
@@ -67,7 +67,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="VO_F_Line04 " ID="{4B39F46F-1BE3-4241-A9E2-D6AF5D01475C}">
+								<AudioFileSource Name="VO_F_Line04" ID="{4B39F46F-1BE3-4241-A9E2-D6AF5D01475C}">
 									<Language>SFX</Language>
 									<AudioFile>VO\VO_F_Line04 .wav</AudioFile>
 									<MediaIDList>
@@ -76,7 +76,7 @@
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="VO_F_Line04 " ID="{4B39F46F-1BE3-4241-A9E2-D6AF5D01475C}" Platform="Linked"/>
+								<ActiveSource Name="VO_F_Line04" ID="{4B39F46F-1BE3-4241-A9E2-D6AF5D01475C}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="VO_F_Line02" ID="{8FEE38A3-F9E9-47CD-B15D-38ACC29AB519}" ShortID="823449421">

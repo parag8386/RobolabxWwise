@@ -1,0 +1,16 @@
+Event	ID	Name			Wwise Object Path	Notes
+	116129673	Stop_Ambience_loop			\Default Work Unit\Ambience\Stop_Ambience_loop	
+	166761806	Play_glasspad_loop			\Default Work Unit\Ambience\Play_glasspad_loop	
+	452547817	Stop_All			\Default Work Unit\SFX\Stop_All	
+	791875877	Play_Indoorlab_loop			\Default Work Unit\Ambience\Play_Indoorlab_loop	
+	1026169559	Play_Ambience_loop			\Default Work Unit\Ambience\Play_Ambience_loop	
+	2656924299	Stop_Indoorlab_loop			\Default Work Unit\Ambience\Stop_Indoorlab_loop	
+	4172250560	Stop_glasspad_loop			\Default Work Unit\Ambience\Stop_glasspad_loop	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	508167538	Ambience_loop	Y:\Downloads\Robolab_x_Wwise\Wwise\Robolab\.cache\Windows\SFX\Ambience\Ambience_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb\Room\Ambience_loop		484988
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	334402990	glasspad_loop	Y:\Downloads\Robolab_x_Wwise\Wwise\Robolab\.cache\Windows\SFX\Sounds\glasspad_6AF693E7.wem	334402990.wem	\Actor-Mixer Hierarchy\Default Work Unit\Amb\glasspad_loop	
+	573369714	Indoorlab_loop	Y:\Downloads\Robolab_x_Wwise\Wwise\Robolab\.cache\Windows\SFX\Sounds\indoorlab_6AF693E7.wem	573369714.wem	\Actor-Mixer Hierarchy\Default Work Unit\Amb\Room\Indoorlab_loop	
+

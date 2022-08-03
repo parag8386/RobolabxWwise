@@ -1,61 +1,60 @@
 Event	ID	Name			Wwise Object Path	Notes
 	39905151	Play_turbine			\Default Work Unit\SFX\Play_turbine	
-	186661464	Stop_alarm_02			\Default Work Unit\SFX\Stop_alarm_02	
-	186661465	Stop_alarm_03			\Default Work Unit\SFX\Stop_alarm_03	
-	186661467	Stop_alarm_01			\Default Work Unit\SFX\Stop_alarm_01	
-	245143100	Play_Indoorlab			\Default Work Unit\SFX\Play_Indoorlab	
-	278617630	Play_Ambience			\Default Work Unit\SFX\Play_Ambience	
+	172772784	Play_robot_arm_motor_loop			\Default Work Unit\SFX\Play_robot_arm_motor_loop	
 	384671264	Play_Lights_Flicker			\Default Work Unit\SFX\Play_Lights_Flicker	
 	406918311	Play_Lights_On			\Default Work Unit\SFX\Play_Lights_On	
 	423060956	Play_static			\Default Work Unit\SFX\Play_static	
-	452547817	Stop_All			\Default Work Unit\SFX\Stop_All	
-	832851525	Play_alarm_01			\Default Work Unit\SFX\Play_alarm_01	
-	832851526	Play_alarm_02			\Default Work Unit\SFX\Play_alarm_02	
-	832851527	Play_alarm_03			\Default Work Unit\SFX\Play_alarm_03	
+	436683974	Stop_alarm_03_loop			\Default Work Unit\SFX\Stop_alarm_03_loop	
+	726066639	Play_alarm_02_loop			\Default Work Unit\SFX\Play_alarm_02_loop	
+	827339530	Play_alarm_01_loop			\Default Work Unit\SFX\Play_alarm_01_loop	
+	891405407	Play_fan_blade_loop			\Default Work Unit\Ambience\Play_fan_blade_loop	
 	948866160	Play_popup			\Default Work Unit\SFX\Play_popup	
 	1204677452	Play_robot_battering_ram			\Default Work Unit\SFX\Play_robot_battering_ram	
 	1220490213	Play_Terminals			\Default Work Unit\SFX\Play_Terminals	
+	1249145528	Stop_alarm_01_loop			\Default Work Unit\SFX\Stop_alarm_01_loop	
+	1297944866	Play_fan_loop			\Default Work Unit\Ambience\Play_fan_loop	
+	1332730642	Stop_robot_arm_motor_loop			\Default Work Unit\Ambience\Stop_robot_arm_motor_loop	
+	1552245617	Stop_fan_blade_loop			\Default Work Unit\Ambience\Stop_fan_blade_loop	
 	1659138091	Play_Typing			\Default Work Unit\SFX\Play_Typing	
 	1863306705	Play_radio_off			\Default Work Unit\SFX\Play_radio_off	
-	2757069037	Play_fan			\Default Work Unit\SFX\Play_fan	
+	2547894692	Stop_fan_loop			\Default Work Unit\Ambience\Stop_fan_loop	
+	2797744060	Play_alarm_03_loop			\Default Work Unit\SFX\Play_alarm_03_loop	
+	2875175866	Stop_turbine_loop			\Default Work Unit\Ambience\Stop_turbine_loop	
 	2876792902	Play_powerup			\Default Work Unit\SFX\Play_powerup	
-	2931782723	Play_robot_arm_motor			\Default Work Unit\SFX\Play_robot_arm_motor	
 	2948213189	Play_radio_on			\Default Work Unit\SFX\Play_radio_on	
 	3045242701	Play_powerdown_01			\Default Work Unit\SFX\Play_powerdown_01	
 	3045242702	Play_powerdown_02			\Default Work Unit\SFX\Play_powerdown_02	
-	4112445110	Play_fan_blade			\Default Work Unit\SFX\Play_fan_blade	
-	4284053745	Play_glasspad			\Default Work Unit\SFX\Play_glasspad	
+	3095460281	Stop_alarm_02_loop			\Default Work Unit\SFX\Stop_alarm_02_loop	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	135733143	popup	C:\Wwise\Robolab\Robolab\.cache\Windows\SFX\Sounds\popup_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX\Computer\popup		228724
-	149743793	typing_02	C:\Wwise\Robolab\Robolab\.cache\Windows\SFX\Sounds\typing_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX\Computer\Typing\typing_02		417480
-	217909898	robot_arm_motor	C:\Wwise\Robolab\Robolab\.cache\Windows\SFX\Sounds\robot_arm_motor_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX\robot_arm_motor		926852
-	289511662	light_flicker_02	C:\Wwise\Robolab\Robolab\.cache\Windows\SFX\Sounds\light_flicker_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX\Lights_Flicker\light_flicker_02		183884
-	312541516	typing_01	C:\Wwise\Robolab\Robolab\.cache\Windows\SFX\Sounds\typing_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX\Computer\Typing\typing_01		467696
-	334402990	glasspad	C:\Wwise\Robolab\Robolab\.cache\Windows\SFX\Sounds\glasspad_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX\glasspad		1264116
-	380518648	robot_battering_ram	C:\Wwise\Robolab\Robolab\.cache\Windows\SFX\Sounds\robot_battering_ram_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX\robot_battering_ram		320016
-	380624205	light_flicker_03	C:\Wwise\Robolab\Robolab\.cache\Windows\SFX\Sounds\light_flicker_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX\Lights_Flicker\light_flicker_03		80784
-	382727337	alarm_03	C:\Wwise\Robolab\Robolab\.cache\Windows\SFX\Sounds\alarm_03_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX\Alarm\alarm_03		39708
-	404631437	radio_off	C:\Wwise\Robolab\Robolab\.cache\Windows\SFX\Sounds\radio_off_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX\Radio\radio_off		22948
-	455297041	typing_03	C:\Wwise\Robolab\Robolab\.cache\Windows\SFX\Sounds\typing_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX\Computer\Typing\typing_03		310772
-	508167538	Ambience	C:\Wwise\Robolab\Robolab\.cache\Windows\SFX\Ambience\Ambience_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb\Room\Ambience		5131556
-	546594104	powerdown_02	C:\Wwise\Robolab\Robolab\.cache\Windows\SFX\Sounds\powerdown_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX\Power\powerdown_02		351680
-	573369714	Indoorlab	C:\Wwise\Robolab\Robolab\.cache\Windows\SFX\Sounds\indoorlab_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb\Room\Indoorlab		2246080
-	581975956	fan_blade	C:\Wwise\Robolab\Robolab\.cache\Windows\SFX\Sounds\fan_blade_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX\Fan\fan_blade		166292
-	584632206	lights_on_01	C:\Wwise\Robolab\Robolab\.cache\Windows\SFX\lights_on_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX\Lights_On\lights_on_01		876884
-	608514660	turbine	C:\Wwise\Robolab\Robolab\.cache\Windows\SFX\Sounds\turbine_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX\Turbine\turbine		1856208
-	652417740	light_flicker_01	C:\Wwise\Robolab\Robolab\.cache\Windows\SFX\Sounds\light_flicker_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX\Lights_Flicker\light_flicker_01		304568
-	684232445	mach_01	C:\Wwise\Robolab\Robolab\.cache\Windows\SFX\Sounds\mach_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX\Terminals\mach_01		910144
-	693315936	fan	C:\Wwise\Robolab\Robolab\.cache\Windows\SFX\Sounds\fan_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX\Fan\fan		1750504
-	727963538	powerup	C:\Wwise\Robolab\Robolab\.cache\Windows\SFX\Sounds\powerup_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX\Power\powerup		222864
-	753956590	mach_02	C:\Wwise\Robolab\Robolab\.cache\Windows\SFX\Sounds\mach_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX\Terminals\mach_02		910144
-	758196176	light_flicker_04	C:\Wwise\Robolab\Robolab\.cache\Windows\SFX\Sounds\light_flicker_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX\Lights_Flicker\light_flicker_04		239028
-	853147906	lights_on_02	C:\Wwise\Robolab\Robolab\.cache\Windows\SFX\lights_on_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX\Lights_On\lights_on_02		822660
-	856892437	lights_on_03	C:\Wwise\Robolab\Robolab\.cache\Windows\SFX\lights_on_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX\Lights_On\lights_on_03		791320
-	892562666	alarm_01	C:\Wwise\Robolab\Robolab\.cache\Windows\SFX\Sounds\alarm_01_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX\Alarm\alarm_01		263744
-	906503232	alarm_02	C:\Wwise\Robolab\Robolab\.cache\Windows\SFX\Sounds\alarm_02_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX\Alarm\alarm_02		81252
-	910164573	mach_03	C:\Wwise\Robolab\Robolab\.cache\Windows\SFX\Sounds\mach_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX\Terminals\mach_03		910144
-	923942877	radio_on	C:\Wwise\Robolab\Robolab\.cache\Windows\SFX\Sounds\radio_on_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX\Radio\radio_on		23720
-	972958394	static	C:\Wwise\Robolab\Robolab\.cache\Windows\SFX\Sounds\static_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX\Radio\static		637328
-	979419685	powerdown_01	C:\Wwise\Robolab\Robolab\.cache\Windows\SFX\Sounds\powerdown_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX\Power\powerdown_01		457312
+	135733143	popup	Y:\Downloads\Robolab_x_Wwise\Wwise\Robolab\.cache\Windows\SFX\Sounds\popup_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX\Computer\popup		29747
+	149743793	typing_02	Y:\Downloads\Robolab_x_Wwise\Wwise\Robolab\.cache\Windows\SFX\Sounds\typing_02_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX\Computer\Typing\typing_02		61953
+	217909898	robot_arm_motor_loop	Y:\Downloads\Robolab_x_Wwise\Wwise\Robolab\.cache\Windows\SFX\Sounds\robot_arm_motor_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX\robot_arm_motor_loop		74500
+	289511662	light_flicker_02	Y:\Downloads\Robolab_x_Wwise\Wwise\Robolab\.cache\Windows\SFX\Sounds\light_flicker_02_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX\Lights_Flicker\light_flicker_02		26623
+	312541516	typing_01	Y:\Downloads\Robolab_x_Wwise\Wwise\Robolab\.cache\Windows\SFX\Sounds\typing_01_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX\Computer\Typing\typing_01		61873
+	380518648	robot_battering_ram	Y:\Downloads\Robolab_x_Wwise\Wwise\Robolab\.cache\Windows\SFX\Sounds\robot_battering_ram_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX\robot_battering_ram		46237
+	380624205	light_flicker_03	Y:\Downloads\Robolab_x_Wwise\Wwise\Robolab\.cache\Windows\SFX\Sounds\light_flicker_03_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX\Lights_Flicker\light_flicker_03		11725
+	382727337	alarm_03_loop	Y:\Downloads\Robolab_x_Wwise\Wwise\Robolab\.cache\Windows\SFX\Sounds\alarm_03_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX\Alarm\alarm_03_loop		3484
+	404631437	radio_off	Y:\Downloads\Robolab_x_Wwise\Wwise\Robolab\.cache\Windows\SFX\Sounds\radio_off_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX\Radio\radio_off		3147
+	455297041	typing_03	Y:\Downloads\Robolab_x_Wwise\Wwise\Robolab\.cache\Windows\SFX\Sounds\typing_03_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX\Computer\Typing\typing_03		46315
+	546594104	powerdown_02	Y:\Downloads\Robolab_x_Wwise\Wwise\Robolab\.cache\Windows\SFX\Sounds\powerdown_02_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX\Power\powerdown_02		27955
+	584632206	lights_on_01	Y:\Downloads\Robolab_x_Wwise\Wwise\Robolab\.cache\Windows\SFX\lights_on_01_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX\Lights_On\lights_on_01		78530
+	652417740	light_flicker_01	Y:\Downloads\Robolab_x_Wwise\Wwise\Robolab\.cache\Windows\SFX\Sounds\light_flicker_01_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX\Lights_Flicker\light_flicker_01		40106
+	684232445	mach_01	Y:\Downloads\Robolab_x_Wwise\Wwise\Robolab\.cache\Windows\SFX\Sounds\mach_01_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX\Terminals\mach_01		74906
+	727963538	powerup	Y:\Downloads\Robolab_x_Wwise\Wwise\Robolab\.cache\Windows\SFX\Sounds\powerup_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX\Power\powerup		22877
+	753956590	mach_02	Y:\Downloads\Robolab_x_Wwise\Wwise\Robolab\.cache\Windows\SFX\Sounds\mach_02_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX\Terminals\mach_02		69312
+	758196176	light_flicker_04	Y:\Downloads\Robolab_x_Wwise\Wwise\Robolab\.cache\Windows\SFX\Sounds\light_flicker_04_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX\Lights_Flicker\light_flicker_04		33351
+	853147906	lights_on_02	Y:\Downloads\Robolab_x_Wwise\Wwise\Robolab\.cache\Windows\SFX\lights_on_02_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX\Lights_On\lights_on_02		75636
+	856892437	lights_on_03	Y:\Downloads\Robolab_x_Wwise\Wwise\Robolab\.cache\Windows\SFX\lights_on_03_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX\Lights_On\lights_on_03		71801
+	906503232	alarm_02_loop	Y:\Downloads\Robolab_x_Wwise\Wwise\Robolab\.cache\Windows\SFX\Sounds\alarm_02_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX\Alarm\alarm_02_loop		6177
+	910164573	mach_03	Y:\Downloads\Robolab_x_Wwise\Wwise\Robolab\.cache\Windows\SFX\Sounds\mach_03_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX\Terminals\mach_03		71880
+	923942877	radio_on	Y:\Downloads\Robolab_x_Wwise\Wwise\Robolab\.cache\Windows\SFX\Sounds\radio_on_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX\Radio\radio_on		2940
+	972958394	static	Y:\Downloads\Robolab_x_Wwise\Wwise\Robolab\.cache\Windows\SFX\Sounds\static_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX\Radio\static		70776
+	979419685	powerdown_01	Y:\Downloads\Robolab_x_Wwise\Wwise\Robolab\.cache\Windows\SFX\Sounds\powerdown_01_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX\Power\powerdown_01		38481
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	581975956	fan_blade_loop	Y:\Downloads\Robolab_x_Wwise\Wwise\Robolab\.cache\Windows\SFX\Sounds\fan_blade_6AF693E7.wem	581975956.wem	\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX\Fan\fan_blade_loop	
+	608514660	turbine_loop	Y:\Downloads\Robolab_x_Wwise\Wwise\Robolab\.cache\Windows\SFX\Sounds\turbine_6AF693E7.wem	608514660.wem	\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX\Turbine\turbine_loop	
+	693315936	fan_loop	Y:\Downloads\Robolab_x_Wwise\Wwise\Robolab\.cache\Windows\SFX\Sounds\fan_6AF693E7.wem	693315936.wem	\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX\Fan\fan_loop	
+	892562666	alarm_01_loop	Y:\Downloads\Robolab_x_Wwise\Wwise\Robolab\.cache\Windows\SFX\Sounds\alarm_01_6AF693E7.wem	892562666.wem	\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX\Alarm\alarm_01_loop	
 

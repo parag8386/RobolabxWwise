@@ -5,7 +5,7 @@
 			<ChildrenList>
 				<SoundBank Name="SFX" ID="{D7369A8F-6A69-4142-9F42-3D3A2AEF62EF}">
 					<ObjectInclusionList>
-						<ObjectRef Name="SFX" ID="{838FDE22-5DCB-40DA-9399-C16CAE901BAD}" WorkUnitID="{77DFFAE7-DA20-4D63-B155-F71D9F42ADF4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SFX" ID="{9E48AE89-A47B-410E-817C-4E13776F5DE3}" WorkUnitID="{9E48AE89-A47B-410E-817C-4E13776F5DE3}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
@@ -20,6 +20,13 @@
 				<SoundBank Name="VO" ID="{ADF9FBF9-81F2-4FF2-B6ED-B3D47704A9C6}">
 					<ObjectInclusionList>
 						<ObjectRef Name="VO" ID="{4116EDED-0E0A-4F0F-96A6-B1F05919B0B4}" WorkUnitID="{77DFFAE7-DA20-4D63-B155-F71D9F42ADF4}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Ambience" ID="{E8F5F5E9-0792-4273-91EE-17202965A7F0}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Amb" ID="{EF400AB5-AA0B-4262-A3E3-33CD981C52CE}" WorkUnitID="{EF400AB5-AA0B-4262-A3E3-33CD981C52CE}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

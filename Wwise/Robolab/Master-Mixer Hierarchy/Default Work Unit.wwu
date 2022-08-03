@@ -13,6 +13,7 @@
 						<Bus Name="SFX" ID="{D43E9432-937A-49DD-B477-9B240CCA168E}"/>
 						<Bus Name="Voices" ID="{F30C7FA0-CF9B-49AC-89B0-57DE7F726F31}"/>
 						<Bus Name="Music" ID="{BCF41F86-D8AB-4D74-940B-6652C33AF63B}"/>
+						<Bus Name="Ambience" ID="{A5519DD5-558C-4529-BE39-41C8E5CF6EFA}"/>
 					</ChildrenList>
 				</Bus>
 			</ChildrenList>
