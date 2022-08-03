@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="85412153" Type="User" Language="SFX" Hash="{A0865973-4B23-F0A9-3A6A-FE8404311476}">
+		<SoundBank Id="85412153" Type="User" Language="SFX" Hash="{E09555A8-C368-930F-FAB9-B5F6CF090FBB}">
 			<ShortName>Ambience</ShortName>
 			<Path>Ambience.bnk</Path>
 			<Media>
@@ -18,8 +18,9 @@
 					<Path>Media/334402990.wem</Path>
 					<CachePath>SFX/Sounds/glasspad_6AF693E7.wem</CachePath>
 				</File>
-				<File Id="508167538" Language="SFX" Streaming="false" Location="Memory">
+				<File Id="508167538" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>Ambience\Ambience.wav</ShortName>
+					<Path>Media/508167538.wem</Path>
 					<CachePath>SFX/Ambience/Ambience_6AF693E7.wem</CachePath>
 				</File>
 				<File Id="573369714" Language="SFX" Streaming="true" Location="Loose">
@@ -66,7 +67,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{751765F7-467E-6673-8CF6-9EE5E1341AA4}">
+		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{23A5CD13-C711-F44A-F482-D1BA26C39D61}">
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<Media>
@@ -98,8 +99,9 @@
 					<ShortName>Sounds\light_flicker_03.wav</ShortName>
 					<CachePath>SFX/Sounds/light_flicker_03_05842A19.wem</CachePath>
 				</File>
-				<File Id="382727337" Language="SFX" Streaming="false" Location="Memory">
+				<File Id="382727337" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>Sounds\alarm_03.wav</ShortName>
+					<Path>Media/382727337.wem</Path>
 					<CachePath>SFX/Sounds/alarm_03_6AF693E7.wem</CachePath>
 				</File>
 				<File Id="404631437" Language="SFX" Streaming="false" Location="Memory">
@@ -166,8 +168,9 @@
 					<Path>Media/892562666.wem</Path>
 					<CachePath>SFX/Sounds/alarm_01_6AF693E7.wem</CachePath>
 				</File>
-				<File Id="906503232" Language="SFX" Streaming="false" Location="Memory">
+				<File Id="906503232" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>Sounds\alarm_02.wav</ShortName>
+					<Path>Media/906503232.wem</Path>
 					<CachePath>SFX/Sounds/alarm_02_6AF693E7.wem</CachePath>
 				</File>
 				<File Id="910164573" Language="SFX" Streaming="false" Location="Memory">
@@ -579,5 +582,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{F1D1793B-DFDD-260A-8BA6-5EC747986756}</FileHash>
+	<FileHash>{E30B810F-DC4C-EF36-8AA2-59280475D73A}</FileHash>
 </SoundBanksInfo>

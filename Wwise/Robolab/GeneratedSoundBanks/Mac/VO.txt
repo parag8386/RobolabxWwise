@@ -1,0 +1,20 @@
+Event	ID	Name			Wwise Object Path	Notes
+	4240237445	Play_VO_F_Line08			\Default Work Unit\VO\Play_VO_F_Line08	
+	4240237448	Play_VO_F_Line05			\Default Work Unit\VO\Play_VO_F_Line05	
+	4240237449	Play_VO_F_Line04			\Default Work Unit\VO\Play_VO_F_Line04	
+	4240237450	Play_VO_F_Line07			\Default Work Unit\VO\Play_VO_F_Line07	
+	4240237451	Play_VO_F_Line06			\Default Work Unit\VO\Play_VO_F_Line06	
+	4240237452	Play_VO_F_Line01			\Default Work Unit\VO\Play_VO_F_Line01	
+	4240237454	Play_VO_F_Line03			\Default Work Unit\VO\Play_VO_F_Line03	
+	4240237455	Play_VO_F_Line02			\Default Work Unit\VO\Play_VO_F_Line02	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	87206287	VO_F_Line05	Y:\Documents\GitHub\RobolabxWwise\Wwise\Robolab\.cache\Mac\SFX\VO\VO_F_Line05_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Female_VO\VO_F_Line05		67102
+	286299075	VO_F_Line02	Y:\Documents\GitHub\RobolabxWwise\Wwise\Robolab\.cache\Mac\SFX\VO\VO_F_Line02_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Female_VO\VO_F_Line02		201894
+	384016931	VO_F_Line08	Y:\Documents\GitHub\RobolabxWwise\Wwise\Robolab\.cache\Mac\SFX\VO\VO_F_Line08_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Female_VO\VO_F_Line08		27045
+	546318144	VO_F_Line07	Y:\Documents\GitHub\RobolabxWwise\Wwise\Robolab\.cache\Mac\SFX\VO\VO_F_Line07_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Female_VO\VO_F_Line07		74836
+	585917536	VO_F_Line06	Y:\Documents\GitHub\RobolabxWwise\Wwise\Robolab\.cache\Mac\SFX\VO\VO_F_Line06_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Female_VO\VO_F_Line06		43194
+	720972709	VO_F_Line03	Y:\Documents\GitHub\RobolabxWwise\Wwise\Robolab\.cache\Mac\SFX\VO\VO_F_Line03_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Female_VO\VO_F_Line03		185764
+	938217012	VO_F_Line01	Y:\Documents\GitHub\RobolabxWwise\Wwise\Robolab\.cache\Mac\SFX\VO\VO_F_Line01_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Female_VO\VO_F_Line01		141714
+	1044944841	VO_F_Line04	Y:\Documents\GitHub\RobolabxWwise\Wwise\Robolab\.cache\Mac\SFX\VO\VO_F_Line04 _05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Female_VO\VO_F_Line04		111355
+

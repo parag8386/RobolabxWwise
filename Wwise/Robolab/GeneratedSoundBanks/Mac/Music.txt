@@ -1,0 +1,7 @@
+Event	ID	Name			Wwise Object Path	Notes
+	433710372	Play_Music_Loop			\Default Work Unit\Music\Play_Music_Loop	
+	3130332582	Stop_Music_Loop			\Default Work Unit\Music\Stop_Music_Loop	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	120577724	Fats Waller - Ain't Misbehavin' - Stormy Weather (1943)	Y:\Documents\GitHub\RobolabxWwise\Wwise\Robolab\.cache\Mac\SFX\Music\Fats Waller - Ain't Misbehavin' - Stormy Weather (1943)_6AF693E7.wem		\Interactive Music Hierarchy\Default Work Unit\Music_Loop\Fats Waller - Ain't Misbehavin' - Stormy Weather (1943)		1368211
+

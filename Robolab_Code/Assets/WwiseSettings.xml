@@ -9,7 +9,7 @@
   <ObjectReferenceAutoCleanup>true</ObjectReferenceAutoCleanup>
   <ShowMissingRigidBodyWarning>true</ShowMissingRigidBodyWarning>
   <ShowSpatialAudioWarningMsg>true</ShowSpatialAudioWarningMsg>
-  <WwiseInstallationPathMac />
+  <WwiseInstallationPathMac>/Applications/Audiokinetic/Wwise 2022.1.0.7985/Wwise.app</WwiseInstallationPathMac>
   <WwiseInstallationPathWindows>D:\Audiokinetic\Wwise 2022.1.0.7985</WwiseInstallationPathWindows>
   <WwiseProjectPath>../../Wwise/Robolab/Robolab.wproj</WwiseProjectPath>
   <UseWaapi>true</UseWaapi>
