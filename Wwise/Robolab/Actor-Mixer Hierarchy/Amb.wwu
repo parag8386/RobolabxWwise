@@ -16,6 +16,11 @@
 						<Sound Name="Ambience_loop" ID="{12EB2963-2A6C-46CD-A536-47C6ADEEAE41}" ShortID="560207989">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="IsStreamingEnabled" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-22</Value>
