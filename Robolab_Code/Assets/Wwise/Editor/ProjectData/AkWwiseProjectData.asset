@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: 49433337f97d00489f2188cdcf0133cd
     GuidInternal: 
-    m_lastTime: -8585423298878947893
+    m_lastTime: -8585422481186006321
     List: []
   - PhysicalPath: Virtual Acoustics\Factory Reflect Acoustic Textures.wwu
     PathAndIcons:
@@ -37,7 +37,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Factory Reflect Acoustic Textures
     guid: 6b663d46a83ca54f8b4a5fef12b883f6
     GuidInternal: 
-    m_lastTime: -8585423298878838178
+    m_lastTime: -8585422481186704506
     List:
     - name: Acoustic_Banner
       guid: f2532d2fccda8e408b8898b1b52a26d6
@@ -303,8 +303,25 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 7eefcdb6a392c44a9ed3061de7002cf4
     GuidInternal: 
-    m_lastTime: -8585423298878335403
+    m_lastTime: -8585420947080638635
     List:
+    - name: Ambience
+      guid: d59d51a58c552945be3941c8e5cf6efa
+      id: 85412153
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7eefcdb6a392c44a9ed3061de7002cf4
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Ambience
+        ObjectType: 2
+        guid: d59d51a58c552945be3941c8e5cf6efa
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Ambience
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
       id: 3803692087
@@ -382,8 +399,22 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 48d19e930ae2d649a063cbda9f36f63d
     GuidInternal: 
-    m_lastTime: -8585423298880298941
+    m_lastTime: -8585420947078900424
     List:
+    - name: Ambience
+      guid: e9f5f5e89207734291ee17202965a7f0
+      id: 85412153
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 48d19e930ae2d649a063cbda9f36f63d
+      - ElementName: Ambience
+        ObjectType: 7
+        guid: e9f5f5e89207734291ee17202965a7f0
+      Path: SoundBanks\Default Work Unit\Ambience
     - name: Music
       guid: 8ea514bfd5bec64aaf25ec0d950ed93f
       id: 3991942870
@@ -438,8 +469,25 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: e7fadf7720da634db155f71d9f42adf4
     GuidInternal: 
-    m_lastTime: -8585423298878177012
+    m_lastTime: -8585420947081994138
     List:
+    - name: Ambience
+      guid: 6184f7353033c14fb6ea0ed99ff36bab
+      id: 85412153
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: e7fadf7720da634db155f71d9f42adf4
+      - ElementName: Ambience
+        ObjectType: 4
+        guid: 6184f7353033c14fb6ea0ed99ff36bab
+      Path: Events\Default Work Unit\Ambience
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Music
       guid: fb976880ca24e84cabd33206a994a3fa
       id: 3991942870
@@ -457,9 +505,9 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: Play_alarm_01
+    - name: Play_alarm_01_loop
       guid: b256c3f1ed10ca41aa8734dc9296d5f1
-      id: 832851525
+      id: 827339530
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -470,16 +518,16 @@ MonoBehaviour:
       - ElementName: SFX
         ObjectType: 4
         guid: 22de8f83cb5dda409399c16cae901bad
-      - ElementName: Play_alarm_01
+      - ElementName: Play_alarm_01_loop
         ObjectType: 3
         guid: b256c3f1ed10ca41aa8734dc9296d5f1
-      Path: Events\Default Work Unit\SFX\Play_alarm_01
+      Path: Events\Default Work Unit\SFX\Play_alarm_01_loop
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: Play_alarm_02
+    - name: Play_alarm_02_loop
       guid: f071085e341e4443a9f9dfbd934eb29a
-      id: 832851526
+      id: 726066639
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -490,16 +538,16 @@ MonoBehaviour:
       - ElementName: SFX
         ObjectType: 4
         guid: 22de8f83cb5dda409399c16cae901bad
-      - ElementName: Play_alarm_02
+      - ElementName: Play_alarm_02_loop
         ObjectType: 3
         guid: f071085e341e4443a9f9dfbd934eb29a
-      Path: Events\Default Work Unit\SFX\Play_alarm_02
+      Path: Events\Default Work Unit\SFX\Play_alarm_02_loop
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: Play_alarm_03
+    - name: Play_alarm_03_loop
       guid: 03e66307ebd3f8499f8ea88351b80a0a
-      id: 832851527
+      id: 2797744060
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -510,16 +558,16 @@ MonoBehaviour:
       - ElementName: SFX
         ObjectType: 4
         guid: 22de8f83cb5dda409399c16cae901bad
-      - ElementName: Play_alarm_03
+      - ElementName: Play_alarm_03_loop
         ObjectType: 3
         guid: 03e66307ebd3f8499f8ea88351b80a0a
-      Path: Events\Default Work Unit\SFX\Play_alarm_03
+      Path: Events\Default Work Unit\SFX\Play_alarm_03_loop
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: Play_Ambience
+    - name: Play_Ambience_loop
       guid: 552e3497dba37f4c9ce0e497151e366a
-      id: 278617630
+      id: 1026169559
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -527,39 +575,19 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: e7fadf7720da634db155f71d9f42adf4
-      - ElementName: SFX
+      - ElementName: Ambience
         ObjectType: 4
-        guid: 22de8f83cb5dda409399c16cae901bad
-      - ElementName: Play_Ambience
+        guid: 6184f7353033c14fb6ea0ed99ff36bab
+      - ElementName: Play_Ambience_loop
         ObjectType: 3
         guid: 552e3497dba37f4c9ce0e497151e366a
-      Path: Events\Default Work Unit\SFX\Play_Ambience
+      Path: Events\Default Work Unit\Ambience\Play_Ambience_loop
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: Play_fan
-      guid: 81e347496ea43649b93890621fe56fb0
-      id: 2757069037
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: e7fadf7720da634db155f71d9f42adf4
-      - ElementName: SFX
-        ObjectType: 4
-        guid: 22de8f83cb5dda409399c16cae901bad
-      - ElementName: Play_fan
-        ObjectType: 3
-        guid: 81e347496ea43649b93890621fe56fb0
-      Path: Events\Default Work Unit\SFX\Play_fan
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: Play_fan_blade
+    - name: Play_fan_blade_loop
       guid: 0c29f048f9771c4683eb384bf0c989a8
-      id: 4112445110
+      id: 891405407
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -567,19 +595,19 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: e7fadf7720da634db155f71d9f42adf4
-      - ElementName: SFX
+      - ElementName: Ambience
         ObjectType: 4
-        guid: 22de8f83cb5dda409399c16cae901bad
-      - ElementName: Play_fan_blade
+        guid: 6184f7353033c14fb6ea0ed99ff36bab
+      - ElementName: Play_fan_blade_loop
         ObjectType: 3
         guid: 0c29f048f9771c4683eb384bf0c989a8
-      Path: Events\Default Work Unit\SFX\Play_fan_blade
+      Path: Events\Default Work Unit\Ambience\Play_fan_blade_loop
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: Play_glasspad
-      guid: bf30f3de6d42f64bb06ed3be74902c0b
-      id: 4284053745
+    - name: Play_fan_loop
+      guid: 81e347496ea43649b93890621fe56fb0
+      id: 1297944866
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -587,19 +615,39 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: e7fadf7720da634db155f71d9f42adf4
-      - ElementName: SFX
+      - ElementName: Ambience
         ObjectType: 4
-        guid: 22de8f83cb5dda409399c16cae901bad
-      - ElementName: Play_glasspad
+        guid: 6184f7353033c14fb6ea0ed99ff36bab
+      - ElementName: Play_fan_loop
+        ObjectType: 3
+        guid: 81e347496ea43649b93890621fe56fb0
+      Path: Events\Default Work Unit\Ambience\Play_fan_loop
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_glasspad_loop
+      guid: bf30f3de6d42f64bb06ed3be74902c0b
+      id: 166761806
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: e7fadf7720da634db155f71d9f42adf4
+      - ElementName: Ambience
+        ObjectType: 4
+        guid: 6184f7353033c14fb6ea0ed99ff36bab
+      - ElementName: Play_glasspad_loop
         ObjectType: 3
         guid: bf30f3de6d42f64bb06ed3be74902c0b
-      Path: Events\Default Work Unit\SFX\Play_glasspad
+      Path: Events\Default Work Unit\Ambience\Play_glasspad_loop
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: Play_Indoorlab
+    - name: Play_Indoorlab_loop
       guid: b14d6005eb58734ebbb59ad9905c40eb
-      id: 245143100
+      id: 791875877
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -607,13 +655,13 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: e7fadf7720da634db155f71d9f42adf4
-      - ElementName: SFX
+      - ElementName: Ambience
         ObjectType: 4
-        guid: 22de8f83cb5dda409399c16cae901bad
-      - ElementName: Play_Indoorlab
+        guid: 6184f7353033c14fb6ea0ed99ff36bab
+      - ElementName: Play_Indoorlab_loop
         ObjectType: 3
         guid: b14d6005eb58734ebbb59ad9905c40eb
-      Path: Events\Default Work Unit\SFX\Play_Indoorlab
+      Path: Events\Default Work Unit\Ambience\Play_Indoorlab_loop
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -797,9 +845,9 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: Play_robot_arm_motor
+    - name: Play_robot_arm_motor_loop
       guid: b5ae4a22fcc4d54681fbbd6917464804
-      id: 2931782723
+      id: 172772784
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -810,10 +858,10 @@ MonoBehaviour:
       - ElementName: SFX
         ObjectType: 4
         guid: 22de8f83cb5dda409399c16cae901bad
-      - ElementName: Play_robot_arm_motor
+      - ElementName: Play_robot_arm_motor_loop
         ObjectType: 3
         guid: b5ae4a22fcc4d54681fbbd6917464804
-      Path: Events\Default Work Unit\SFX\Play_robot_arm_motor
+      Path: Events\Default Work Unit\SFX\Play_robot_arm_motor_loop
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -1094,9 +1142,9 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: Stop_alarm_01
-      guid: 8b074b67ad18844e83532a5a48e47ebc
-      id: 186661467
+    - name: Stop_alarm_01_loop
+      guid: 49bb6b422a12b54a8df67ec06f1ff269
+      id: 1249145528
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -1107,16 +1155,16 @@ MonoBehaviour:
       - ElementName: SFX
         ObjectType: 4
         guid: 22de8f83cb5dda409399c16cae901bad
-      - ElementName: Stop_alarm_01
+      - ElementName: Stop_alarm_01_loop
         ObjectType: 3
-        guid: 8b074b67ad18844e83532a5a48e47ebc
-      Path: Events\Default Work Unit\SFX\Stop_alarm_01
+        guid: 49bb6b422a12b54a8df67ec06f1ff269
+      Path: Events\Default Work Unit\SFX\Stop_alarm_01_loop
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: Stop_alarm_02
-      guid: 198b2d9bdc7b8d428c3fdffb7f153106
-      id: 186661464
+    - name: Stop_alarm_02_loop
+      guid: 2bcb33edc78418468552e6c3929e0ff0
+      id: 3095460281
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -1127,16 +1175,16 @@ MonoBehaviour:
       - ElementName: SFX
         ObjectType: 4
         guid: 22de8f83cb5dda409399c16cae901bad
-      - ElementName: Stop_alarm_02
+      - ElementName: Stop_alarm_02_loop
         ObjectType: 3
-        guid: 198b2d9bdc7b8d428c3fdffb7f153106
-      Path: Events\Default Work Unit\SFX\Stop_alarm_02
+        guid: 2bcb33edc78418468552e6c3929e0ff0
+      Path: Events\Default Work Unit\SFX\Stop_alarm_02_loop
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: Stop_alarm_03
-      guid: d68fa279e183bc4792fc1ff93ccbe806
-      id: 186661465
+    - name: Stop_alarm_03_loop
+      guid: 5ddf2f8bb7faab458daddcd65a380a44
+      id: 436683974
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -1147,10 +1195,10 @@ MonoBehaviour:
       - ElementName: SFX
         ObjectType: 4
         guid: 22de8f83cb5dda409399c16cae901bad
-      - ElementName: Stop_alarm_03
+      - ElementName: Stop_alarm_03_loop
         ObjectType: 3
-        guid: d68fa279e183bc4792fc1ff93ccbe806
-      Path: Events\Default Work Unit\SFX\Stop_alarm_03
+        guid: 5ddf2f8bb7faab458daddcd65a380a44
+      Path: Events\Default Work Unit\SFX\Stop_alarm_03_loop
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -1174,6 +1222,106 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Stop_Ambience_loop
+      guid: daafeb91c71f58489922e8ec3d095d77
+      id: 116129673
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: e7fadf7720da634db155f71d9f42adf4
+      - ElementName: Ambience
+        ObjectType: 4
+        guid: 6184f7353033c14fb6ea0ed99ff36bab
+      - ElementName: Stop_Ambience_loop
+        ObjectType: 3
+        guid: daafeb91c71f58489922e8ec3d095d77
+      Path: Events\Default Work Unit\Ambience\Stop_Ambience_loop
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stop_fan_blade_loop
+      guid: 3afa6023a614df4f853537519f8b7a7b
+      id: 1552245617
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: e7fadf7720da634db155f71d9f42adf4
+      - ElementName: Ambience
+        ObjectType: 4
+        guid: 6184f7353033c14fb6ea0ed99ff36bab
+      - ElementName: Stop_fan_blade_loop
+        ObjectType: 3
+        guid: 3afa6023a614df4f853537519f8b7a7b
+      Path: Events\Default Work Unit\Ambience\Stop_fan_blade_loop
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stop_fan_loop
+      guid: ee24c43c3b6feb4dae868fcfa48f4af0
+      id: 2547894692
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: e7fadf7720da634db155f71d9f42adf4
+      - ElementName: Ambience
+        ObjectType: 4
+        guid: 6184f7353033c14fb6ea0ed99ff36bab
+      - ElementName: Stop_fan_loop
+        ObjectType: 3
+        guid: ee24c43c3b6feb4dae868fcfa48f4af0
+      Path: Events\Default Work Unit\Ambience\Stop_fan_loop
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stop_glasspad_loop
+      guid: 9182780fe7888347adce623283b5d2ee
+      id: 4172250560
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: e7fadf7720da634db155f71d9f42adf4
+      - ElementName: Ambience
+        ObjectType: 4
+        guid: 6184f7353033c14fb6ea0ed99ff36bab
+      - ElementName: Stop_glasspad_loop
+        ObjectType: 3
+        guid: 9182780fe7888347adce623283b5d2ee
+      Path: Events\Default Work Unit\Ambience\Stop_glasspad_loop
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stop_Indoorlab_loop
+      guid: 55564a2dcaa15e499018494650ee2d25
+      id: 2656924299
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: e7fadf7720da634db155f71d9f42adf4
+      - ElementName: Ambience
+        ObjectType: 4
+        guid: 6184f7353033c14fb6ea0ed99ff36bab
+      - ElementName: Stop_Indoorlab_loop
+        ObjectType: 3
+        guid: 55564a2dcaa15e499018494650ee2d25
+      Path: Events\Default Work Unit\Ambience\Stop_Indoorlab_loop
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Stop_Music_Loop
       guid: b483250401247442a15baacf96d00660
       id: 3130332582
@@ -1191,6 +1339,46 @@ MonoBehaviour:
         ObjectType: 3
         guid: b483250401247442a15baacf96d00660
       Path: Events\Default Work Unit\Music\Stop_Music_Loop
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stop_robot_arm_motor_loop
+      guid: 41962bde8eb90a46b0ce27b6bb55de85
+      id: 1332730642
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: e7fadf7720da634db155f71d9f42adf4
+      - ElementName: Ambience
+        ObjectType: 4
+        guid: 6184f7353033c14fb6ea0ed99ff36bab
+      - ElementName: Stop_robot_arm_motor_loop
+        ObjectType: 3
+        guid: 41962bde8eb90a46b0ce27b6bb55de85
+      Path: Events\Default Work Unit\Ambience\Stop_robot_arm_motor_loop
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stop_turbine_loop
+      guid: bc1d161937d7114a8c6aaebd0b88d15d
+      id: 2875175866
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: e7fadf7720da634db155f71d9f42adf4
+      - ElementName: Ambience
+        ObjectType: 4
+        guid: 6184f7353033c14fb6ea0ed99ff36bab
+      - ElementName: Stop_turbine_loop
+        ObjectType: 3
+        guid: bc1d161937d7114a8c6aaebd0b88d15d
+      Path: Events\Default Work Unit\Ambience\Stop_turbine_loop
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -1223,7 +1411,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: ee34a7006ecc5b4cbac3125e16a18b02
     GuidInternal: 
-    m_lastTime: -8585423298879949892
+    m_lastTime: -8585422481185796890
     List: []
   - PhysicalPath: Game Parameters\Factory Motion.wwu
     PathAndIcons:
@@ -1236,7 +1424,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Factory Motion
     guid: 225213d7dbd1d042adc0930743567776
     GuidInternal: 
-    m_lastTime: -8585423298880514169
+    m_lastTime: -8585422481185776947
     List:
     - name: Playback_Rate
       guid: e37e38283ac11643b9c3db5c521624af
@@ -1277,7 +1465,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Factory SoundSeed Air Game Syncs
     guid: 5577163b42fb8b4598bf96f557afb3b9
     GuidInternal: 
-    m_lastTime: -8585423298879540985
+    m_lastTime: -8585422481185717109
     List:
     - name: SS_Air_Fear
       guid: 59062ef746431c4ea1b1dab46a05101e
@@ -1430,7 +1618,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Factory SoundSeed Grain
     guid: 97bdcb0b5177774a85bb6ac940f8cc3f
     GuidInternal: 
-    m_lastTime: -8585423298880863234
+    m_lastTime: -8585422481185497697
     List:
     - name: Density_FA_SSGrain
       guid: 9ef2b363f3048748ba1a4d7694644b24
@@ -1528,7 +1716,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 971c75edca395942bbeb45644ba7ea9f
     GuidInternal: 
-    m_lastTime: -8585423298879181697
+    m_lastTime: -8585422481185517626
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -1542,7 +1730,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 42b1e3a1ea26b84a9c59fd0c8ec804de
     GuidInternal: 
-    m_lastTime: -8585423298879590852
+    m_lastTime: -8585422481186754383
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
@@ -1556,10 +1744,10 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: dde762d3aee85349964ef1a7f223f4d5
     GuidInternal: 
-    m_lastTime: -8585423298880813371
+    m_lastTime: -8585422481186046212
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0100000005000000060000000700000008000000090000000c0000000d000000
+  ExpandedWaapiItemIds: 01000000060000000700000008000000090000000c0000000d0000000e000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71518856595bf654e90d6a11d332cb80, type: 3}
   m_Name: 97342E55-A3DB-4C7F-9CE0-E497151E366A
   m_EditorClassIdentifier: 
-  objectName: Play_Ambience
-  id: 278617630
+  objectName: Play_Ambience_loop
+  id: 1026169559
   guid: 97342E55-A3DB-4C7F-9CE0-E497151E366A
