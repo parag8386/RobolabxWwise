@@ -15,9 +15,6 @@ namespace Robolab.Wwise.Events
         public const string PLAY_FAN_BLADE_LOOP = "Play_fan_blade_loop";
         public const string PLAY_FAN_LOOP = "Play_fan_loop";
         public const string PLAY_GLASSPAD_LOOP = "Play_glasspad_loop";
-
-        // VO
-        public const string PLAY_VO_F_LINE01 = "Play_VO_F_Line01";
     }
 
     public static class WwiseEventHelper

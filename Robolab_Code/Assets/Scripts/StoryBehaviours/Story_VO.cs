@@ -1,26 +1,26 @@
 namespace Robolab.Story.Behaviour
 {
     using Robolab.Wwise.Events;
-    using UnityStandardAssets.Characters.FirstPerson;
     using UnityEngine;
 
-    public class Story_VO_1 : StoryBehaviourBase
+    public class Story_VO : StoryBehaviourBase
     {
+        [SerializeField] private string _VOEventID = default;
+
         public override void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
         {
             base.OnStateEnter(animator, stateInfo, layerIndex);
 
-            // Post VO_1 event
-            WwiseEventHelper.PostEventID(WwiseEventIDs.PLAY_VO_F_LINE01, _storyGameObjectReferences.NPC);
+            // Post VO event
+            WwiseEventHelper.PostEventID(_VOEventID, _storyGameObjectReferences.NPC);
         }
 
         public override void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
         {
             base.OnStateExit(animator, stateInfo, layerIndex);
 
-            // Stop VO_1 and unlock movement
-            WwiseEventHelper.StopEventID(WwiseEventIDs.PLAY_VO_F_LINE01);
-            RigidbodyFirstPersonController.s_LockMovement = false;
+            // Stop VO
+            WwiseEventHelper.StopEventID(_VOEventID);
         }
     }
 }

@@ -1,6 +1,6 @@
 namespace Robolab.Story
 {
-    using System;
+    using UnityStandardAssets.Characters.FirstPerson;
     using UnityEngine;
 
     public class StoryGameObjectReferences : MonoBehaviour
@@ -14,5 +14,8 @@ namespace Robolab.Story
 
         [Header("NPC")]
         public GameObject NPC = default;
+
+        [Header("Player")]
+        public RigidbodyFirstPersonController RigidbodyFirstPersonController;
     }
 }

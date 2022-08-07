@@ -6,7 +6,7 @@ namespace Robolab.Story.Behaviour
     {
         private const string STORY_STATE_INDEX_PARAMETER = "Story_State_Index";
 
-        [SerializeField] private float _stayInStateForSeconds = 2f;
+        [SerializeField, Tooltip("Set to -1 to disable the timed exit")] private float _stayInStateForSeconds = 2f;
         [SerializeField] private int _storyStateIndexToTransitionTo = -1;
 
         protected StoryGameObjectReferences _storyGameObjectReferences = null;
@@ -28,10 +28,17 @@ namespace Robolab.Story.Behaviour
 
         public override void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
         {
+            if (_stayInStateForSeconds < 0)
+            {
+                // If the _stayInStateForSeconds variable is less than 0, disable the time in 
+                // state check
+                return;
+            }
+
             // Switch states once the time in state has expired
             if (_timeInState <= 0f)
             {
-                animator.SetInteger(_storyStateIndexParameterHash, _storyStateIndexToTransitionTo);
+                TransitionToNextState(animator);
             }
             else
             {
@@ -53,6 +60,11 @@ namespace Robolab.Story.Behaviour
 
             // Init time in state variable
             _timeInState = _stayInStateForSeconds;
+        }
+
+        protected void TransitionToNextState(Animator animator)
+        {
+            animator.SetInteger(_storyStateIndexParameterHash, _storyStateIndexToTransitionTo);
         }
     }
 }

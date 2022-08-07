@@ -4,7 +4,7 @@ namespace Robolab.Story.Behaviour
     using UnityStandardAssets.Characters.FirstPerson;
     using UnityEngine;
 
-    public class StoryInit : StoryBehaviourBase
+    public class Story_Init : StoryBehaviourBase
     {
         public override void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
         {
