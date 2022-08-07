@@ -11,5 +11,8 @@ namespace Robolab.Story
         public GameObject RetroTelevision = default;
         public GameObject Fan = default;
         public GameObject HoverPad = default;
+
+        [Header("NPC")]
+        public GameObject NPC = default;
     }
 }

@@ -8,6 +8,9 @@ namespace UnityStandardAssets.Characters.FirstPerson
     [RequireComponent(typeof (CapsuleCollider))]
     public class RigidbodyFirstPersonController : MonoBehaviour
     {
+        public static bool s_LockMovement { get; set; }
+        public static bool s_LockLooking { get; set; }
+
         [Serializable]
         public class MovementSettings
         {
@@ -130,7 +133,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
         {
             RotateView();
 
-            if (CrossPlatformInputManager.GetButtonDown("Jump") && !m_Jump)
+            if (CrossPlatformInputManager.GetButtonDown("Jump") && !m_Jump && !s_LockMovement)
             {
                 m_Jump = true;
             }
@@ -211,7 +214,9 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
         private Vector2 GetInput()
         {
-            
+            if (s_LockMovement)
+                return Vector2.zero;
+
             Vector2 input = new Vector2
                 {
                     x = CrossPlatformInputManager.GetAxis("Horizontal"),
@@ -225,7 +230,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
         private void RotateView()
         {
             //avoids the mouse looking if the game is effectively paused
-            if (Mathf.Abs(Time.timeScale) < float.Epsilon) return;
+            if ((Mathf.Abs(Time.timeScale) < float.Epsilon) || s_LockLooking) return;
 
             // get the rotation before it's changed
             float oldYRotation = transform.eulerAngles.y;
