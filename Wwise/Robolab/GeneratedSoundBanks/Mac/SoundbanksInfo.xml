@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="85412153" Type="User" Language="SFX" Hash="{E09555A8-C368-930F-FAB9-B5F6CF090FBB}">
+		<SoundBank Id="85412153" Type="User" Language="SFX" Hash="{355C7C7C-68EF-D3C7-2986-166905B11DE9}">
 			<ShortName>Ambience</ShortName>
 			<Path>Ambience.bnk</Path>
 			<Media>
@@ -30,7 +30,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="1026169559" Name="Play_Ambience_loop" DurationType="Infinite">
+				<Event Id="1026169559" Name="Play_Ambience_loop" MaxAttenuation="10" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="508167538"/>
 					</MediaRefs>
@@ -40,12 +40,12 @@
 						<MediaRef Id="334402990"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="791875877" Name="Play_Indoorlab_loop" DurationType="Infinite">
+				<Event Id="791875877" Name="Play_Indoorlab_loop" MaxAttenuation="10" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="573369714"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="452547817" Name="Stop_All" DurationType="Infinite">
+				<Event Id="452547817" Name="Stop_All" MaxAttenuation="10" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="573369714"/>
 					</MediaRefs>
@@ -67,7 +67,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{23A5CD13-C711-F44A-F482-D1BA26C39D61}">
+		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{05E19AA1-849C-7C9C-BCF2-0333F6E21422}">
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<Media>
@@ -483,7 +483,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="1534528548" Type="User" Language="SFX" Hash="{1C9F6493-A15F-35F9-C68F-58FF458A5738}">
+		<SoundBank Id="1534528548" Type="User" Language="SFX" Hash="{14C6F490-F4DC-DC32-E4AF-23508C4F2143}">
 			<ShortName>VO</ShortName>
 			<Path>VO.bnk</Path>
 			<Media>
@@ -563,7 +563,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{DE81FFFA-3AE2-6E0F-18B9-94127DC53444}">
+		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{BC599728-44F3-4B76-C6D5-60AEC04EFCF3}">
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>
 			<Media>
@@ -573,7 +573,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="433710372" Name="Play_Music_Loop" MaxAttenuation="15" DurationType="OneShot" DurationMin="166.68735" DurationMax="166.68735">
+				<Event Id="433710372" Name="Play_Music_Loop" MaxAttenuation="6" DurationType="OneShot" DurationMin="166.68735" DurationMax="166.68735">
 					<MediaRefs>
 						<MediaRef Id="120577724"/>
 					</MediaRefs>
@@ -582,5 +582,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{C77A51D8-106A-35E2-668E-90F5D5C065F3}</FileHash>
+	<FileHash>{E372B814-B6A5-C4C2-34EC-F654CED2CB86}</FileHash>
 </SoundBanksInfo>
