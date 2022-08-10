@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="85412153" Type="User" Language="SFX" Hash="{355C7C7C-68EF-D3C7-2986-166905B11DE9}">
+		<SoundBank Id="85412153" Type="User" Language="SFX" Hash="{7D861B67-A136-BC46-F5C1-EAA29E177A8A}">
 			<ShortName>Ambience</ShortName>
 			<Path>Ambience.bnk</Path>
 			<Media>
@@ -30,7 +30,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="1026169559" Name="Play_Ambience_loop" MaxAttenuation="10" DurationType="Infinite">
+				<Event Id="1026169559" Name="Play_Ambience_loop" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="508167538"/>
 					</MediaRefs>
@@ -40,12 +40,12 @@
 						<MediaRef Id="334402990"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="791875877" Name="Play_Indoorlab_loop" MaxAttenuation="10" DurationType="Infinite">
+				<Event Id="791875877" Name="Play_Indoorlab_loop" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="573369714"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="452547817" Name="Stop_All" MaxAttenuation="10" DurationType="Infinite">
+				<Event Id="452547817" Name="Stop_All" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="573369714"/>
 					</MediaRefs>
@@ -332,10 +332,13 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{FFDBC39E-F7CE-C8D3-FEF9-34BD7647D6F5}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{048B18F9-CFFD-B122-7B2B-B7FFD8EB0DE0}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
+				<Sharesets>
+					<Plugin Id="195408523" Name="Level_Meter" LibName="Wwise Meter" LibId="8454147"/>
+				</Sharesets>
 				<AudioDevices>
 					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
 					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
@@ -344,11 +347,18 @@
 			<Busses>
 				<Bus Id="85412153" Name="Ambience"/>
 				<Bus Id="393239870" Name="SFX"/>
-				<Bus Id="3313685232" Name="Voices"/>
+				<Bus Id="3313685232" Name="Voices">
+					<PluginRefs>
+						<Sharesets>
+							<PluginRef Id="195408523"/>
+						</Sharesets>
+					</PluginRefs>
+				</Bus>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 				<Bus Id="3991942870" Name="Music"/>
 			</Busses>
 			<GameParameters>
+				<GameParameter Id="195408523" Name="Level_Meter"/>
 				<GameParameter Id="796049864" Name="RPM"/>
 				<GameParameter Id="822163944" Name="SS_Air_RPM"/>
 				<GameParameter Id="1029930033" Name="SS_Air_Fury"/>
@@ -582,5 +592,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{E372B814-B6A5-C4C2-34EC-F654CED2CB86}</FileHash>
+	<FileHash>{4EF9EFEA-E85F-CDB6-535B-D162DC2A3A58}</FileHash>
 </SoundBanksInfo>

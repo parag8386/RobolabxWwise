@@ -1367,10 +1367,12 @@
 												<Property Name="GateAttackTime" Type="Real32" Value="22.2"/>
 												<Property Name="GateRange" Type="Real32" Value="-26.8"/>
 												<Property Name="GateThreshold" Type="Real32" Value="-30.6"/>
+												<Property Name="InputGain" Type="Real32" Value="-0.3839999"/>
 												<Property Name="LoFiBitDepthType" Type="int32" Value="10"/>
 												<Property Name="LoFiDownSampleIndex" Type="int32" Value="2"/>
 												<Property Name="NoiseEnable" Type="bool" Value="False"/>
-												<Property Name="SIMType" Type="int32" Value="97"/>
+												<Property Name="NoiseLevel" Type="Real32" Value="-90.30286"/>
+												<Property Name="SIMType" Type="int32" Value="153"/>
 											</PropertyList>
 										</Effect>
 										<Effect Name="Dirtier_Mother" ID="{8231BF36-0257-44D0-9183-5FDA33092898}" PluginName="McDSP FutzBox" CompanyID="256" PluginID="110" PluginType="3">
