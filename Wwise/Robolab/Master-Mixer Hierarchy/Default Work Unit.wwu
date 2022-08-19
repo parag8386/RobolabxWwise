@@ -11,7 +11,13 @@
 					</ReferenceList>
 					<ChildrenList>
 						<Bus Name="SFX" ID="{D43E9432-937A-49DD-B477-9B240CCA168E}"/>
-						<Bus Name="Voices" ID="{F30C7FA0-CF9B-49AC-89B0-57DE7F726F31}"/>
+						<Bus Name="Voices" ID="{F30C7FA0-CF9B-49AC-89B0-57DE7F726F31}">
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+									<ObjectRef Name="Level_Meter" ID="{ACB3FF97-E627-44B6-ABF7-D0E33855757B}" WorkUnitID="{029EB334-49A6-4D63-BCF1-9BA46E0F682B}"/>
+								</Reference>
+							</ReferenceList>
+						</Bus>
 						<Bus Name="Music" ID="{BCF41F86-D8AB-4D74-940B-6652C33AF63B}"/>
 						<Bus Name="Ambience" ID="{A5519DD5-558C-4529-BE39-41C8E5CF6EFA}"/>
 					</ChildrenList>

@@ -4,6 +4,13 @@
 		<WorkUnit Name="Voice" ID="{8D0DD42B-4FC6-4ADF-A7D9-2588F115F249}" OwnerID="{F5682A68-046F-464E-91D8-FF74F75D924A}" PersistMode="Nested">
 			<ChildrenList>
 				<ActorMixer Name="Female_VO" ID="{B769782A-4E1A-4085-8E9E-0ADCF7920BF1}" ShortID="801149756">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-9</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4BAC6818-33C7-45D0-9AB9-C5E8A8294397}"/>

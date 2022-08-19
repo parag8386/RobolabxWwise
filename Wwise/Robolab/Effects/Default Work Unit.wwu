@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{029EB334-49A6-4D63-BCF1-9BA46E0F682B}" SchemaVersion="110">
 	<Effects>
-		<WorkUnit Name="Default Work Unit" ID="{029EB334-49A6-4D63-BCF1-9BA46E0F682B}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{029EB334-49A6-4D63-BCF1-9BA46E0F682B}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="Level_Meter" ID="{ACB3FF97-E627-44B6-ABF7-D0E33855757B}" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">					<PluginData>
+	<GameParameter Name="Level_Meter" ID="{B62E8ED7-1F2E-4A94-80EF-6069E04D3241}"/>
+</PluginData>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
 	</Effects>
 </WwiseDocument>
