@@ -24,10 +24,10 @@ namespace Robolab.Story.Behaviour
             // Force stop VO
             if (_StopOnExit)
             {
-                WwiseEventHelper.StopEventID(WwiseEventIDs.RADIO_ON);
-                WwiseEventHelper.StopEventID(WwiseEventIDs.RADIO_STATIC);
-                WwiseEventHelper.StopEventID(_VOEventID);
-                WwiseEventHelper.StopEventID(WwiseEventIDs.RADIO_OFF);
+                WwiseEventHelper.StopEventID(WwiseEventIDs.RADIO_ON, _storyGameObjectReferences.NPC);
+                WwiseEventHelper.StopEventID(WwiseEventIDs.RADIO_STATIC, _storyGameObjectReferences.NPC);
+                WwiseEventHelper.StopEventID(_VOEventID, _storyGameObjectReferences.NPC);
+                WwiseEventHelper.StopEventID(WwiseEventIDs.RADIO_OFF, _storyGameObjectReferences.NPC);
             }
         }
     }

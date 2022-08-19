@@ -20,6 +20,9 @@ namespace Robolab.Story
 
         [Header("Lights")]
         public Light[] LightObjects = default;
+        public GameObject LightAudioEmitter1 = default;
+        public GameObject LightAudioEmitter2 = default;
+        public GameObject LightAudioEmitter3 = default;
 
         [Header("Aniamtors")]
         public Animator RobotArmAnimator = default;

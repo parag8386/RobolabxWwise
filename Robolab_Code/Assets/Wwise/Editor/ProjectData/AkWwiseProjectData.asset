@@ -303,7 +303,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 7eefcdb6a392c44a9ed3061de7002cf4
     GuidInternal: 
-    m_lastTime: -8585420947080638635
+    m_lastTime: -8585406933507860108
     List:
     - name: Ambience
       guid: d59d51a58c552945be3941c8e5cf6efa
@@ -1411,8 +1411,22 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: ee34a7006ecc5b4cbac3125e16a18b02
     GuidInternal: 
-    m_lastTime: -8585422481185796890
-    List: []
+    m_lastTime: -8585406933508059580
+    List:
+    - name: Level_Meter
+      guid: d78e2eb62e1f944a80ef6069e04d3241
+      id: 195408523
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ee34a7006ecc5b4cbac3125e16a18b02
+      - ElementName: Level_Meter
+        ObjectType: 13
+        guid: d78e2eb62e1f944a80ef6069e04d3241
+      Path: Game Parameters\Default Work Unit\Level_Meter
   - PhysicalPath: Game Parameters\Factory Motion.wwu
     PathAndIcons:
     - ElementName: Game Parameters
@@ -1747,7 +1761,7 @@ MonoBehaviour:
     m_lastTime: -8585422481186046212
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 050000000600000007000000090000000a000000
+  ExpandedWaapiItemIds: 
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

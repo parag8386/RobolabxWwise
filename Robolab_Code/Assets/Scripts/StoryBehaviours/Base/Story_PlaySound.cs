@@ -24,7 +24,7 @@ namespace Robolab.Story.Behaviour
             // Force stop event
             if (_StopOnExit)
             {
-                WwiseEventHelper.StopEventID(_SoundEventID);
+                WwiseEventHelper.StopEventID(_SoundEventID, _storyGameObjectReferences.GenericAmbience);
             }
         }
     }

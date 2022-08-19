@@ -55,6 +55,10 @@ namespace Robolab.Wwise.Events
 
         public static bool PostEventID(string eventID, GameObject gameObject, bool overrideIfAlreadyPlaying = false, AkCallbackManager.EventCallback eventCallback = null, object callbackObject = null)
         {
+            ulong gameObjectID = AkSoundEngine.GetAkGameObjectID(gameObject);
+            string key = $"{eventID}{gameObjectID}";
+            uint playingId = s_playingIDs.ContainsKey(key) ? s_playingIDs[key] : 0;
+
             if (eventCallback == null)
             {
                 eventCallback = PostEventCallback;
@@ -62,26 +66,27 @@ namespace Robolab.Wwise.Events
 
             if (callbackObject == null)
             {
-                callbackObject = eventID;
+                callbackObject = key;
             }
 
-            uint playingId = s_playingIDs.ContainsKey(eventID) ? s_playingIDs[eventID] : 0;
             if (overrideIfAlreadyPlaying || playingId <= 0)
             {
                 playingId = AkSoundEngine.PostEvent(eventID, gameObject, (uint)AkCallbackType.AK_EndOfEvent, eventCallback, callbackObject);
-                s_playingIDs[eventID] = playingId;
+                s_playingIDs[key] = playingId;
                 return true;
             }
             return false;
         }
 
-        public static void StopEventID(string eventID)
+        public static void StopEventID(string eventID, GameObject gameObject)
         {
-            uint playingId = s_playingIDs.ContainsKey(eventID) ? s_playingIDs[eventID] : 0;
+            ulong gameObjectID = AkSoundEngine.GetAkGameObjectID(gameObject);
+            string key = $"{eventID}{gameObjectID}";
+            uint playingId = s_playingIDs.ContainsKey(key) ? s_playingIDs[key] : 0;
             if (playingId > 0)
             {
                 AkSoundEngine.StopPlayingID(playingId);
-                s_playingIDs[eventID] = 0;
+                s_playingIDs[key] = 0;
             }
         }
 
@@ -94,8 +99,8 @@ namespace Robolab.Wwise.Events
 
         private static void PostEventCallback(object in_cookie, AkCallbackType in_type, AkCallbackInfo in_info)
         {
-            string eventID = in_cookie.ToString();
-            s_playingIDs[eventID] = 0;
+            string key = in_cookie.ToString();
+            s_playingIDs[key] = 0;
         }
 
         private static void VOStartEventCallback(object in_cookie, AkCallbackType in_type, AkCallbackInfo in_info)
@@ -105,7 +110,7 @@ namespace Robolab.Wwise.Events
             GameObject gameObject = sentVOObject.GameObject;
 
             // Stop radio on
-            StopEventID(WwiseEventIDs.RADIO_ON);
+            StopEventID(WwiseEventIDs.RADIO_ON, gameObject);
 
             // Play VO with static
             PostEventID(WwiseEventIDs.RADIO_STATIC, gameObject);
@@ -119,8 +124,8 @@ namespace Robolab.Wwise.Events
             GameObject gameObject = sentVOObject.GameObject;
 
             // Clear radio static and VO
-            StopEventID(WwiseEventIDs.RADIO_STATIC);
-            StopEventID(vo_eventID);
+            StopEventID(WwiseEventIDs.RADIO_STATIC, gameObject);
+            StopEventID(vo_eventID, gameObject);
 
             // Play radio off
             PostEventID(WwiseEventIDs.RADIO_OFF, gameObject);

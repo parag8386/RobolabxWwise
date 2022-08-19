@@ -36,7 +36,9 @@ namespace Robolab.Story.Behaviour
                         _storyGameObjectReferences.LightObjects[i].enabled = (enable > 0);
                     }
                     _flickerUpdateDuration = Random.Range(minInclusive: _flickerFrequency.x, maxInclusive: _flickerFrequency.y);
-                    WwiseEventHelper.PostEventID(WwiseEventIDs.LIGHT_FLICKER, _storyGameObjectReferences.LightObjects[0].gameObject);
+                    WwiseEventHelper.PostEventID(WwiseEventIDs.LIGHT_FLICKER, _storyGameObjectReferences.LightAudioEmitter1);
+                    WwiseEventHelper.PostEventID(WwiseEventIDs.LIGHT_FLICKER, _storyGameObjectReferences.LightAudioEmitter2);
+                    WwiseEventHelper.PostEventID(WwiseEventIDs.LIGHT_FLICKER, _storyGameObjectReferences.LightAudioEmitter3);
                 }
             }
             else
@@ -54,7 +56,9 @@ namespace Robolab.Story.Behaviour
         {
             base.OnStateExit(animator, stateInfo, layerIndex);
 
-            WwiseEventHelper.StopEventID(WwiseEventIDs.LIGHT_FLICKER);
+            WwiseEventHelper.StopEventID(WwiseEventIDs.LIGHT_FLICKER, _storyGameObjectReferences.LightAudioEmitter1);
+            WwiseEventHelper.StopEventID(WwiseEventIDs.LIGHT_FLICKER, _storyGameObjectReferences.LightAudioEmitter2);
+            WwiseEventHelper.StopEventID(WwiseEventIDs.LIGHT_FLICKER, _storyGameObjectReferences.LightAudioEmitter3);
         }
     }
 }
