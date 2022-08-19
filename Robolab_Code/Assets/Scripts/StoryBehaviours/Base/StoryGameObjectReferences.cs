@@ -17,5 +17,12 @@ namespace Robolab.Story
 
         [Header("Player")]
         public RigidbodyFirstPersonController RigidbodyFirstPersonController;
+
+        [Header("Lights")]
+        public Light[] LightObjects = default;
+
+        [Header("Aniamtors")]
+        public Animator RobotArmAnimator = default;
+        public Animator BatteringRamAnimator = default;
     }
 }

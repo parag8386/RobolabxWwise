@@ -1,5 +1,6 @@
 namespace Robolab.Story.Behaviour
 {
+    using Wwise.Events;
     using UnityEngine;
     using UnityStandardAssets.Characters.FirstPerson;
 

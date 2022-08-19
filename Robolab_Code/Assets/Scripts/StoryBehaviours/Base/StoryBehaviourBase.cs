@@ -11,7 +11,7 @@ namespace Robolab.Story.Behaviour
 
         protected StoryGameObjectReferences _storyGameObjectReferences = null;
 
-        private float _timeInState = 0f;
+        protected float _timeInState = 0f;
         private int _storyStateIndexParameterHash = Animator.StringToHash(STORY_STATE_INDEX_PARAMETER);
 
         public override void OnStateMachineEnter(Animator animator, int stateMachinePathHash)
@@ -43,6 +43,11 @@ namespace Robolab.Story.Behaviour
             else
             {
                 _timeInState -= Time.deltaTime;
+            }
+
+            if (Input.GetKeyDown(KeyCode.L))
+            {
+                _timeInState = 0.1f;
             }
         }
 

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="144">
 	<RootPaths>
-		<ProjectRoot>../../</ProjectRoot>
-		<SourceFilesRoot>../../.cache/Windows/</SourceFilesRoot>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Windows</SourceFilesRoot>
 		<SoundBanksRoot>.</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
 		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="85412153" Type="User" Language="SFX" Hash="{E09555A8-C368-930F-FAB9-B5F6CF090FBB}">
+		<SoundBank Id="85412153" Type="User" Language="SFX" Hash="{EDF4E9FF-B4E5-EA26-282D-4577FE07733C}">
 			<ShortName>Ambience</ShortName>
 			<Path>Ambience.bnk</Path>
 			<Media>
@@ -30,7 +30,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="1026169559" Name="Play_Ambience_loop" DurationType="Infinite">
+				<Event Id="1026169559" Name="Play_Ambience_loop" MaxAttenuation="10" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="508167538"/>
 					</MediaRefs>
@@ -40,12 +40,12 @@
 						<MediaRef Id="334402990"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="791875877" Name="Play_Indoorlab_loop" DurationType="Infinite">
+				<Event Id="791875877" Name="Play_Indoorlab_loop" MaxAttenuation="10" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="573369714"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="452547817" Name="Stop_All" DurationType="Infinite">
+				<Event Id="452547817" Name="Stop_All" MaxAttenuation="10" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="573369714"/>
 					</MediaRefs>
@@ -67,7 +67,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{23A5CD13-C711-F44A-F482-D1BA26C39D61}">
+		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{ADE239D5-300F-A353-6EA3-1A7867458E2B}">
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<Media>
@@ -183,7 +183,7 @@
 				</File>
 				<File Id="972958394" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Sounds\static.wav</ShortName>
-					<CachePath>SFX/Sounds/static_05842A19.wem</CachePath>
+					<CachePath>SFX/Sounds/static_6AF693E7.wem</CachePath>
 				</File>
 				<File Id="979419685" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Sounds\powerdown_01.wav</ShortName>
@@ -191,32 +191,32 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="827339530" Name="Play_alarm_01_loop" MaxAttenuation="10" DurationType="Infinite">
+				<Event Id="827339530" Name="Play_alarm_01_loop" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="892562666"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="726066639" Name="Play_alarm_02_loop" MaxAttenuation="10" DurationType="Infinite">
+				<Event Id="726066639" Name="Play_alarm_02_loop" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="906503232"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2797744060" Name="Play_alarm_03_loop" MaxAttenuation="10" DurationType="Infinite">
+				<Event Id="2797744060" Name="Play_alarm_03_loop" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="382727337"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="891405407" Name="Play_fan_blade_loop" MaxAttenuation="10" DurationType="Infinite">
+				<Event Id="891405407" Name="Play_fan_blade_loop" MaxAttenuation="20" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="581975956"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1297944866" Name="Play_fan_loop" MaxAttenuation="10" DurationType="Infinite">
+				<Event Id="1297944866" Name="Play_fan_loop" MaxAttenuation="20" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="693315936"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="384671264" Name="Play_Lights_Flicker" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.45759636" DurationMax="1.7262131">
+				<Event Id="384671264" Name="Play_Lights_Flicker" DurationType="OneShot" DurationMin="0.45759636" DurationMax="1.7262131">
 					<MediaRefs>
 						<MediaRef Id="289511662"/>
 						<MediaRef Id="380624205"/>
@@ -224,71 +224,71 @@
 						<MediaRef Id="758196176"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="406918311" Name="Play_Lights_On" MaxAttenuation="10" DurationType="OneShot" DurationMin="4.121125" DurationMax="4.566771">
+				<Event Id="406918311" Name="Play_Lights_On" MaxAttenuation="20" DurationType="OneShot" DurationMin="4.121125" DurationMax="4.566771">
 					<MediaRefs>
 						<MediaRef Id="584632206"/>
 						<MediaRef Id="853147906"/>
 						<MediaRef Id="856892437"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="948866160" Name="Play_popup" MaxAttenuation="10" DurationType="OneShot" DurationMin="1.2962584" DurationMax="1.2962584">
+				<Event Id="948866160" Name="Play_popup" MaxAttenuation="20" DurationType="OneShot" DurationMin="1.2962584" DurationMax="1.2962584">
 					<MediaRefs>
 						<MediaRef Id="135733143"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3045242701" Name="Play_powerdown_01" MaxAttenuation="10" DurationType="OneShot" DurationMin="2.5921087" DurationMax="2.5921087">
+				<Event Id="3045242701" Name="Play_powerdown_01" DurationType="OneShot" DurationMin="2.5921087" DurationMax="2.5921087">
 					<MediaRefs>
 						<MediaRef Id="979419685"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3045242702" Name="Play_powerdown_02" MaxAttenuation="10" DurationType="OneShot" DurationMin="1.993288" DurationMax="1.993288">
+				<Event Id="3045242702" Name="Play_powerdown_02" DurationType="OneShot" DurationMin="1.993288" DurationMax="1.993288">
 					<MediaRefs>
 						<MediaRef Id="546594104"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2876792902" Name="Play_powerup" MaxAttenuation="10" DurationType="OneShot" DurationMin="1.2630385" DurationMax="1.2630385">
+				<Event Id="2876792902" Name="Play_powerup" DurationType="OneShot" DurationMin="1.2630385" DurationMax="1.2630385">
 					<MediaRefs>
 						<MediaRef Id="727963538"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1863306705" Name="Play_radio_off" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.12972789" DurationMax="0.12972789">
+				<Event Id="1863306705" Name="Play_radio_off" DurationType="OneShot" DurationMin="0.12972789" DurationMax="0.12972789">
 					<MediaRefs>
 						<MediaRef Id="404631437"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2948213189" Name="Play_radio_on" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.13410431" DurationMax="0.13410431">
+				<Event Id="2948213189" Name="Play_radio_on" DurationType="OneShot" DurationMin="0.13410431" DurationMax="0.13410431">
 					<MediaRefs>
 						<MediaRef Id="923942877"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="172772784" Name="Play_robot_arm_motor_loop" MaxAttenuation="10" DurationType="OneShot" DurationMin="5.2539" DurationMax="5.2539">
+				<Event Id="172772784" Name="Play_robot_arm_motor_loop" MaxAttenuation="20" DurationType="OneShot" DurationMin="5.2539" DurationMax="5.2539">
 					<MediaRefs>
 						<MediaRef Id="217909898"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1204677452" Name="Play_robot_battering_ram" MaxAttenuation="10" DurationType="OneShot" DurationMin="1.8137869" DurationMax="1.8137869">
+				<Event Id="1204677452" Name="Play_robot_battering_ram" MaxAttenuation="20" DurationType="OneShot" DurationMin="1.8137869" DurationMax="1.8137869">
 					<MediaRefs>
 						<MediaRef Id="380518648"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="423060956" Name="Play_static" MaxAttenuation="10" DurationType="OneShot" DurationMin="3.6126077" DurationMax="3.6126077">
+				<Event Id="423060956" Name="Play_static" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="972958394"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1220490213" Name="Play_Terminals" MaxAttenuation="10" DurationType="OneShot" DurationMin="5.1591835" DurationMax="5.1591835">
+				<Event Id="1220490213" Name="Play_Terminals" MaxAttenuation="20" DurationType="OneShot" DurationMin="5.1591835" DurationMax="5.1591835">
 					<MediaRefs>
 						<MediaRef Id="684232445"/>
 						<MediaRef Id="753956590"/>
 						<MediaRef Id="910164573"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="39905151" Name="Play_turbine" MaxAttenuation="10" DurationType="Infinite">
+				<Event Id="39905151" Name="Play_turbine" MaxAttenuation="20" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="608514660"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1659138091" Name="Play_Typing" MaxAttenuation="10" DurationType="OneShot" DurationMin="1.4811409" DurationMax="2.2291954">
+				<Event Id="1659138091" Name="Play_Typing" MaxAttenuation="20" DurationType="OneShot" DurationMin="1.4811409" DurationMax="2.2291954">
 					<MediaRefs>
 						<MediaRef Id="149743793"/>
 						<MediaRef Id="312541516"/>
@@ -563,7 +563,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{DE81FFFA-3AE2-6E0F-18B9-94127DC53444}">
+		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{BC599728-44F3-4B76-C6D5-60AEC04EFCF3}">
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>
 			<Media>
@@ -573,7 +573,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="433710372" Name="Play_Music_Loop" MaxAttenuation="15" DurationType="OneShot" DurationMin="166.68735" DurationMax="166.68735">
+				<Event Id="433710372" Name="Play_Music_Loop" MaxAttenuation="6" DurationType="OneShot" DurationMin="166.68735" DurationMax="166.68735">
 					<MediaRefs>
 						<MediaRef Id="120577724"/>
 					</MediaRefs>
@@ -582,5 +582,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{E30B810F-DC4C-EF36-8AA2-59280475D73A}</FileHash>
+	<FileHash>{0443FBA4-AAA1-DEB1-0942-C3264B74562C}</FileHash>
 </SoundBanksInfo>

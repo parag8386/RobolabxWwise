@@ -5,14 +5,14 @@
 			<ChildrenList>
 				<ActorMixer Name="SFX" ID="{FBF237CB-65EA-44B5-87CD-C14B14E199B0}" ShortID="290814345">
 					<PropertyList>
-						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
 							<Custom>
 								<Attenuation Name="Attenuation (Custom)" ID="{C7085EA0-4884-44E6-B245-6E08ED45726B}" ShortID="527885304">
 									<PropertyList>
-										<Property Name="RadiusMax" Type="Real64" Value="10"/>
+										<Property Name="RadiusMax" Type="Real64" Value="20"/>
 									</PropertyList>
 									<CurveUsageInfoList>
 										<VolumeDryUsage>
@@ -29,7 +29,7 @@
 															<SegmentShape>Log2</SegmentShape>
 														</Point>
 														<Point>
-															<XPos>10</XPos>
+															<XPos>20</XPos>
 															<YPos>-200</YPos>
 															<Flags>37</Flags>
 														</Point>
@@ -106,6 +106,10 @@
 						<Folder Name="Radio" ID="{2A2BB9EC-B844-4C11-A7AF-52291DCDFE6E}" ShortID="231733625">
 							<ChildrenList>
 								<Sound Name="radio_off" ID="{7D4E2374-F374-45AE-BD4B-E40F722F7DF0}" ShortID="928643658">
+									<PropertyList>
+										<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4BAC6818-33C7-45D0-9AB9-C5E8A8294397}"/>
@@ -128,6 +132,10 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="radio_on" ID="{94F4AA6A-6CF5-48D9-9AB9-961E838ED275}" ShortID="411109111">
+									<PropertyList>
+										<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4BAC6818-33C7-45D0-9AB9-C5E8A8294397}"/>
@@ -151,6 +159,9 @@
 								</Sound>
 								<Sound Name="static" ID="{412ADE7E-CD6F-4706-A677-539F185584C9}" ShortID="771392910">
 									<PropertyList>
+										<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>-6</Value>
@@ -184,12 +195,14 @@
 							<ChildrenList>
 								<Sound Name="alarm_01_loop" ID="{60AA4BBE-BE1B-415A-BA8F-9CBA7D61621F}" ShortID="662447340">
 									<PropertyList>
+										<Property Name="EnableAttenuation" Type="bool" Value="False"/>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="IsStreamingEnabled" Type="bool">
 											<ValueList>
 												<Value>True</Value>
 											</ValueList>
 										</Property>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -214,12 +227,14 @@
 								</Sound>
 								<Sound Name="alarm_02_loop" ID="{E06DE0CA-1D3F-4E70-A7C6-1100DD99FE63}" ShortID="178751732">
 									<PropertyList>
+										<Property Name="EnableAttenuation" Type="bool" Value="False"/>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="IsStreamingEnabled" Type="bool">
 											<ValueList>
 												<Value>True</Value>
 											</ValueList>
 										</Property>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -244,12 +259,14 @@
 								</Sound>
 								<Sound Name="alarm_03_loop" ID="{1140BA99-5FA2-4CC7-9D61-59869F64FF90}" ShortID="534171566">
 									<PropertyList>
+										<Property Name="EnableAttenuation" Type="bool" Value="False"/>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="IsStreamingEnabled" Type="bool">
 											<ValueList>
 												<Value>True</Value>
 											</ValueList>
 										</Property>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -277,6 +294,10 @@
 						<Folder Name="Power" ID="{290D1F83-F0C1-49FF-8014-BE89913FD8C0}" ShortID="168926060">
 							<ChildrenList>
 								<Sound Name="powerdown_01" ID="{A016C55A-1BDC-4551-B36D-4CE561145BAD}" ShortID="85125521">
+									<PropertyList>
+										<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4BAC6818-33C7-45D0-9AB9-C5E8A8294397}"/>
@@ -299,6 +320,10 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="powerdown_02" ID="{2C459308-8152-447A-8CCE-A7071E8EB2B4}" ShortID="609187418">
+									<PropertyList>
+										<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4BAC6818-33C7-45D0-9AB9-C5E8A8294397}"/>
@@ -321,6 +346,10 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="powerup" ID="{B70D60BD-BB7F-4A1E-BCA2-99BE7B8BF0B0}" ShortID="423400266">
+									<PropertyList>
+										<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4BAC6818-33C7-45D0-9AB9-C5E8A8294397}"/>
@@ -502,6 +531,10 @@
 							</ChildrenList>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="Lights_Flicker" ID="{B6B6D96E-0476-4286-898D-CC7952616793}" ShortID="159799508">
+							<PropertyList>
+								<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4BAC6818-33C7-45D0-9AB9-C5E8A8294397}"/>

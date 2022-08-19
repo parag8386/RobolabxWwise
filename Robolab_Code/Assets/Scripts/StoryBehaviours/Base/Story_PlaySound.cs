@@ -3,9 +3,9 @@ namespace Robolab.Story.Behaviour
     using Robolab.Wwise.Events;
     using UnityEngine;
 
-    public class Story_VO : StoryBehaviourBase
+    public class Story_PlaySound : StoryBehaviourBase
     {
-        [SerializeField] private string _VOEventID = default;
+        [SerializeField] private string _SoundEventID = default;
 
         [SerializeField] private bool _StopOnExit = true;
 
@@ -13,21 +13,18 @@ namespace Robolab.Story.Behaviour
         {
             base.OnStateEnter(animator, stateInfo, layerIndex);
 
-            // Post VO event
-            WwiseEventHelper.PlayVO(_VOEventID, _storyGameObjectReferences.NPC);
+            // Post event
+            WwiseEventHelper.PostEventID(_SoundEventID, _storyGameObjectReferences.GenericAmbience);
         }
 
         public override void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
         {
             base.OnStateExit(animator, stateInfo, layerIndex);
 
-            // Force stop VO
+            // Force stop event
             if (_StopOnExit)
             {
-                WwiseEventHelper.StopEventID(WwiseEventIDs.RADIO_ON);
-                WwiseEventHelper.StopEventID(WwiseEventIDs.RADIO_STATIC);
-                WwiseEventHelper.StopEventID(_VOEventID);
-                WwiseEventHelper.StopEventID(WwiseEventIDs.RADIO_OFF);
+                WwiseEventHelper.StopEventID(_SoundEventID);
             }
         }
     }
