@@ -13,7 +13,7 @@ namespace Robolab.Story.Behaviour
         {
             base.OnStateEnter(animator, stateInfo, layerIndex);
             
-            if (_SoundEventID == null)
+            if (_SoundEventID == default || string.IsNullOrEmpty(_SoundEventID))
             {
                 return;
             }
@@ -26,7 +26,7 @@ namespace Robolab.Story.Behaviour
         {
             base.OnStateExit(animator, stateInfo, layerIndex);
 
-            if (_SoundEventID == null)
+            if (_SoundEventID == default || string.IsNullOrEmpty(_SoundEventID))
             {
                 return;
             }
