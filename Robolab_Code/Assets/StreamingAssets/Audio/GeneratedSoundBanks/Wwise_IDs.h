@@ -46,6 +46,7 @@ namespace AK
         static const AkUniqueID STOP_ALARM_01_LOOP = 1249145528U;
         static const AkUniqueID STOP_ALARM_02_LOOP = 3095460281U;
         static const AkUniqueID STOP_ALARM_03_LOOP = 436683974U;
+        static const AkUniqueID STOP_ALL = 452547817U;
         static const AkUniqueID STOP_AMBIENCE_LOOP = 116129673U;
         static const AkUniqueID STOP_FAN_BLADE_LOOP = 1552245617U;
         static const AkUniqueID STOP_FAN_LOOP = 2547894692U;

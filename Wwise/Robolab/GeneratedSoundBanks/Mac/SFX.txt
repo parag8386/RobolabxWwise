@@ -5,6 +5,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	406918311	Play_Lights_On			\Default Work Unit\SFX\Play_Lights_On	
 	423060956	Play_static			\Default Work Unit\SFX\Play_static	
 	436683974	Stop_alarm_03_loop			\Default Work Unit\SFX\Stop_alarm_03_loop	
+	452547817	Stop_All			\Default Work Unit\SFX\Stop_All	
 	726066639	Play_alarm_02_loop			\Default Work Unit\SFX\Play_alarm_02_loop	
 	827339530	Play_alarm_01_loop			\Default Work Unit\SFX\Play_alarm_01_loop	
 	891405407	Play_fan_blade_loop			\Default Work Unit\Ambience\Play_fan_blade_loop	

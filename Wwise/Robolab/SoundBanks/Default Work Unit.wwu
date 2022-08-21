@@ -6,6 +6,7 @@
 				<SoundBank Name="SFX" ID="{D7369A8F-6A69-4142-9F42-3D3A2AEF62EF}">
 					<ObjectInclusionList>
 						<ObjectRef Name="SFX" ID="{9E48AE89-A47B-410E-817C-4E13776F5DE3}" WorkUnitID="{9E48AE89-A47B-410E-817C-4E13776F5DE3}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_All" ID="{53DB20FE-B348-454A-902A-760239FDE472}" WorkUnitID="{77DFFAE7-DA20-4D63-B155-F71D9F42ADF4}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

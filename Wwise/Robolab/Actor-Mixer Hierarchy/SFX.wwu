@@ -170,7 +170,7 @@
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-18</Value>
+												<Value>-23</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -573,7 +573,7 @@
 														<Value>True</Value>
 													</ValueList>
 												</Property>
-												<Property Name="RadiusMax" Type="Real64" Value="30"/>
+												<Property Name="RadiusMax" Type="Real64" Value="20"/>
 											</PropertyList>
 											<CurveUsageInfoList>
 												<VolumeDryUsage>
@@ -590,7 +590,7 @@
 																	<SegmentShape>Log2</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>30</XPos>
+																	<XPos>20</XPos>
 																	<YPos>-200</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -617,7 +617,7 @@
 																	<Flags>5</Flags>
 																</Point>
 																<Point>
-																	<XPos>30</XPos>
+																	<XPos>20</XPos>
 																	<YPos>42</YPos>
 																	<Flags>37</Flags>
 																</Point>

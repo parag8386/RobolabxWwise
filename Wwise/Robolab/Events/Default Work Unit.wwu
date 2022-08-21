@@ -174,7 +174,7 @@
 						</Event>
 						<Event Name="Stop_All" ID="{53DB20FE-B348-454A-902A-760239FDE472}">
 							<ChildrenList>
-								<Action Name="" ID="{1557FD0D-5040-49D2-8962-CA72D43F7095}" ShortID="109192425">
+								<Action Name="" ID="{75471D0C-80A0-4E76-B7FD-BCED42132E6E}" ShortID="131889927">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="3"/>
 									</PropertyList>
