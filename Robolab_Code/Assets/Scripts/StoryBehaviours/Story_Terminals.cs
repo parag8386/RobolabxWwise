@@ -3,7 +3,7 @@ namespace Robolab.Story.Behaviour
     using Wwise.Events;
     using UnityEngine;
 
-    public class Story_Terminals : Story_LightFlicker
+    public class Story_Terminals : Story_Alarm
     {
         public override void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
         {
@@ -18,8 +18,6 @@ namespace Robolab.Story.Behaviour
         public override void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
         {
             base.OnStateUpdate(animator, stateInfo, layerIndex);
-
-
         }
 
         public override void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)

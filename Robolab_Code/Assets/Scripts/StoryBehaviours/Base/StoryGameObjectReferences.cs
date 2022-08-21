@@ -24,8 +24,12 @@ namespace Robolab.Story
         public GameObject LightAudioEmitter2 = default;
         public GameObject LightAudioEmitter3 = default;
 
-        [Header("Aniamtors")]
+        [Header("Animators")]
         public Animator RobotArmAnimator = default;
         public Animator BatteringRamAnimator = default;
+        public Animation LegacyFanAnimation = default;
+
+        [Header("Particles")]
+        public ParticleSystem[] FanParticles = default;
     }
 }

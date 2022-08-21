@@ -12,6 +12,11 @@ namespace Robolab.Story.Behaviour
         public override void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
         {
             base.OnStateEnter(animator, stateInfo, layerIndex);
+            
+            if (_SoundEventID == null)
+            {
+                return;
+            }
 
             // Post event
             WwiseEventHelper.PostEventID(_SoundEventID, _storyGameObjectReferences.GenericAmbience);
@@ -20,6 +25,11 @@ namespace Robolab.Story.Behaviour
         public override void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
         {
             base.OnStateExit(animator, stateInfo, layerIndex);
+
+            if (_SoundEventID == null)
+            {
+                return;
+            }
 
             // Force stop event
             if (_StopOnExit)

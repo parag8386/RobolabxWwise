@@ -25,6 +25,15 @@ namespace Robolab.Story.Behaviour
 
             _storyGameObjectReferences.BatteringRamAnimator.Update(0);
             _storyGameObjectReferences.BatteringRamAnimator.speed = 0f;
+
+            _storyGameObjectReferences.LegacyFanAnimation.Stop();
+
+            // Stop particles
+            for (int i = 0; i < _storyGameObjectReferences.FanParticles.Length; i++)
+            {
+                _storyGameObjectReferences.FanParticles[i].Stop(withChildren: true);
+                _storyGameObjectReferences.FanParticles[i].gameObject.SetActive(false);
+            }
         }
 
         public override void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)

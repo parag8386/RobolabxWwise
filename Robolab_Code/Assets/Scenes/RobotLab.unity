@@ -30236,6 +30236,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1602323146}
   m_PrefabAsset: {fileID: 0}
+--- !u!111 &1825998884 stripped
+Animation:
+  m_CorrespondingSourceObject: {fileID: 11100000, guid: c36695da2470de24bb92b14f1cc8dfe5,
+    type: 3}
+  m_PrefabInstance: {fileID: 1602323146}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1828691520
 GameObject:
   m_ObjectHideFlags: 0
@@ -31009,6 +31015,10 @@ MonoBehaviour:
   LightAudioEmitter3: {fileID: 659641088}
   RobotArmAnimator: {fileID: 2065004922}
   BatteringRamAnimator: {fileID: 117449860}
+  LegacyFanAnimation: {fileID: 1825998884}
+  FanParticles:
+  - {fileID: 307909566}
+  - {fileID: 1263662680}
 --- !u!1 &1922380374
 GameObject:
   m_ObjectHideFlags: 0
