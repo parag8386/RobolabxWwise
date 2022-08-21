@@ -25,8 +25,7 @@ namespace AK
         static const AkUniqueID PLAY_LIGHTS_ON = 406918311U;
         static const AkUniqueID PLAY_MUSIC_LOOP = 433710372U;
         static const AkUniqueID PLAY_POPUP = 948866160U;
-        static const AkUniqueID PLAY_POWERDOWN_01 = 3045242701U;
-        static const AkUniqueID PLAY_POWERDOWN_02 = 3045242702U;
+        static const AkUniqueID PLAY_POWERDOWN = 2298942465U;
         static const AkUniqueID PLAY_POWERUP = 2876792902U;
         static const AkUniqueID PLAY_RADIO_OFF = 1863306705U;
         static const AkUniqueID PLAY_RADIO_ON = 2948213189U;
@@ -47,7 +46,6 @@ namespace AK
         static const AkUniqueID STOP_ALARM_01_LOOP = 1249145528U;
         static const AkUniqueID STOP_ALARM_02_LOOP = 3095460281U;
         static const AkUniqueID STOP_ALARM_03_LOOP = 436683974U;
-        static const AkUniqueID STOP_ALL = 452547817U;
         static const AkUniqueID STOP_AMBIENCE_LOOP = 116129673U;
         static const AkUniqueID STOP_FAN_BLADE_LOOP = 1552245617U;
         static const AkUniqueID STOP_FAN_LOOP = 2547894692U;
@@ -64,6 +62,7 @@ namespace AK
         static const AkUniqueID IMMERSION_FA_SSGRAIN = 2481728872U;
         static const AkUniqueID INSTRUMENT_FA_SSGRAIN = 2317409760U;
         static const AkUniqueID LEVEL_METER = 195408523U;
+        static const AkUniqueID LIGHT_FLICKER = 411515110U;
         static const AkUniqueID PLAYBACK_RATE = 1524500807U;
         static const AkUniqueID PROXIMITY_FA_SSGRAIN = 1791284502U;
         static const AkUniqueID RPM = 796049864U;

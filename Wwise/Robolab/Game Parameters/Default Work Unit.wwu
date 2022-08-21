@@ -4,6 +4,7 @@
 		<WorkUnit Name="Default Work Unit" ID="{00A734EE-CC6E-4C5B-BAC3-125E16A18B02}" PersistMode="Standalone">
 			<ChildrenList>
 				<GameParameter Name="Level_Meter" ID="{B62E8ED7-1F2E-4A94-80EF-6069E04D3241}"/>
+				<GameParameter Name="Light_Flicker" ID="{C728D782-E0F4-4E10-BD1A-E603AE8B7BFA}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

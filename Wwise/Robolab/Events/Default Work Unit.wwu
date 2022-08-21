@@ -71,12 +71,19 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_powerdown_01" ID="{35931941-EC0B-49AC-93C2-8383A98A833D}">
+						<Event Name="Play_powerdown" ID="{35931941-EC0B-49AC-93C2-8383A98A833D}">
 							<ChildrenList>
 								<Action Name="" ID="{F643A142-F930-48DF-BB6F-D120CC84FB7E}" ShortID="43895859">
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="powerdown_01" ID="{A016C55A-1BDC-4551-B36D-4CE561145BAD}" WorkUnitID="{9E48AE89-A47B-410E-817C-4E13776F5DE3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{02D5470B-64DF-43D3-9625-A9AA70C536E8}" ShortID="788391071">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="powerdown_02" ID="{2C459308-8152-447A-8CCE-A7071E8EB2B4}" WorkUnitID="{9E48AE89-A47B-410E-817C-4E13776F5DE3}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -105,6 +112,9 @@
 							</ChildrenList>
 						</Event>
 						<Event Name="Play_powerdown_02" ID="{8321964E-B0A7-4B31-A3AF-690756738172}">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool" Value="False"/>
+							</PropertyList>
 							<ChildrenList>
 								<Action Name="" ID="{C2A62E14-BF92-4D67-A082-9A4B8C2D965C}" ShortID="575139450">
 									<ReferenceList>
@@ -140,6 +150,20 @@
 						<Event Name="Play_Lights_Flicker" ID="{EA934504-44FB-4BBF-AC29-3843D9FEEDF0}">
 							<ChildrenList>
 								<Action Name="" ID="{867AC7E6-4B76-440B-8BAB-367D24F6F55C}" ShortID="256795663">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Light_Flicker" ID="{5649A756-CB6A-40E9-AA6A-01F87B913F8E}" WorkUnitID="{9E48AE89-A47B-410E-817C-4E13776F5DE3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{74BD1F7A-D24D-4765-A437-9E9F9142D1D1}" ShortID="925565078">
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Lights_Flicker" ID="{B6B6D96E-0476-4286-898D-CC7952616793}" WorkUnitID="{9E48AE89-A47B-410E-817C-4E13776F5DE3}"/>
@@ -155,13 +179,6 @@
 										<Property Name="ActionType" Type="int16" Value="3"/>
 									</PropertyList>
 									<ReferenceList/>
-								</Action>
-								<Action Name="" ID="{34D71E54-3A1C-4A31-8CC9-72BBD8E2A41F}" ShortID="957196999">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Indoorlab_loop" ID="{63722911-79B8-4CB5-90DD-088FB8AAB224}" WorkUnitID="{EF400AB5-AA0B-4262-A3E3-33CD981C52CE}"/>
-										</Reference>
-									</ReferenceList>
 								</Action>
 							</ChildrenList>
 						</Event>

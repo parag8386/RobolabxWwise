@@ -2,8 +2,8 @@
 <PlatformInfo>
 	<Platform Name="Mac" BasePlatform="Mac" Generator="2022.1.0.7985"/>
 	<RootPaths>
-		<ProjectRoot>../..</ProjectRoot>
-		<SourceFilesRoot>../../.cache/Mac</SourceFilesRoot>
+		<ProjectRoot>../../</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Mac/</SourceFilesRoot>
 		<SoundBanksRoot>.</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
 		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
@@ -28,5 +28,5 @@
 		<PrintObjectGuid>false</PrintObjectGuid>
 		<PrintObjectPath>false</PrintObjectPath>
 	</Settings>
-	<FileHash>{AF813A8A-5760-16A9-9DB6-369DD8ECE91B}</FileHash>
+	<FileHash>{B47C2C27-19D5-B5C6-C4E4-BF4690F96FBF}</FileHash>
 </PlatformInfo>

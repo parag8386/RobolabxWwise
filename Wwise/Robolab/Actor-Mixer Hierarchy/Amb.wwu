@@ -113,7 +113,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-23</Value>
+										<Value>-18</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -148,7 +148,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-23</Value>
+										<Value>-18</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -177,7 +177,7 @@
 				</ActorMixer>
 				<Sound Name="glasspad_loop" ID="{82E80237-3015-4CF7-B8CE-083AEDD603B5}" ShortID="916943329">
 					<PropertyList>
-						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 						<Property Name="IsStreamingEnabled" Type="bool">
 							<ValueList>

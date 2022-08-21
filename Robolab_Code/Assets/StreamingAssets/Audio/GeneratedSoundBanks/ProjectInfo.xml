@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ProjectInfo>
 	<Project Name="Robolab" GUID="{1D285EA0-3402-440D-A9CA-6A4DDE153B0D}" Generator="2022.1.0.7985"/>
-	<CacheRoot>../../../../../Wwise/Robolab/.cache</CacheRoot>
+	<CacheRoot>../../../../../Wwise/Robolab/.cache/</CacheRoot>
 	<Platforms>
-		<Platform Name="Mac" GUID="{6DE1B12C-3818-417B-A5D7-2D7BBCE783AF}" BasePlatform="Mac" BasePlatformGUID="{9C6217D5-DD11-4795-87C1-6CE02853C540}" Path="../../../../../Wwise/Robolab/GeneratedSoundBanks/Mac"/>
-		<Platform Name="Windows" GUID="{C66A0554-58FC-4A6E-8AD2-1C558F2633EE}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="../../../../../Wwise/Robolab/GeneratedSoundBanks/Windows"/>
+		<Platform Name="Mac" GUID="{6DE1B12C-3818-417B-A5D7-2D7BBCE783AF}" BasePlatform="Mac" BasePlatformGUID="{9C6217D5-DD11-4795-87C1-6CE02853C540}" Path="../../../../../Wwise/Robolab/GeneratedSoundBanks/Mac/"/>
+		<Platform Name="Windows" GUID="{C66A0554-58FC-4A6E-8AD2-1C558F2633EE}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="../../../../../Wwise/Robolab/GeneratedSoundBanks/Windows/"/>
 	</Platforms>
 	<Languages>
 		<Language Name="English(US)" Id="684519430" GUID="{D776ED7F-B698-4FC0-B4EA-0C0A37B9C223}" Default="true" UseAsStandIn="true"/>
 	</Languages>
-	<FileHash>{AD5F90E1-BF45-CB88-0EDF-E6DB358E57B1}</FileHash>
+	<FileHash>{3ECBDE57-8242-7467-B6B5-FBA42399F8AA}</FileHash>
 </ProjectInfo>

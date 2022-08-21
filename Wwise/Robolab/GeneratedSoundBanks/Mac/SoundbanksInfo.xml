@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="144">
 	<RootPaths>
-		<ProjectRoot>../..</ProjectRoot>
-		<SourceFilesRoot>../../.cache/Mac</SourceFilesRoot>
+		<ProjectRoot>../../</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Mac/</SourceFilesRoot>
 		<SoundBanksRoot>.</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
 		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="85412153" Type="User" Language="SFX" Hash="{EDF4E9FF-B4E5-EA26-282D-4577FE07733C}">
+		<SoundBank Id="85412153" Type="User" Language="SFX" Hash="{52627B31-2873-F7E7-1ACB-264F4C56CBA3}">
 			<ShortName>Ambience</ShortName>
 			<Path>Ambience.bnk</Path>
 			<Media>
@@ -30,7 +30,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="1026169559" Name="Play_Ambience_loop" MaxAttenuation="10" DurationType="Infinite">
+				<Event Id="1026169559" Name="Play_Ambience_loop" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="508167538"/>
 					</MediaRefs>
@@ -40,12 +40,7 @@
 						<MediaRef Id="334402990"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="791875877" Name="Play_Indoorlab_loop" MaxAttenuation="10" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="573369714"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="452547817" Name="Stop_All" MaxAttenuation="10" DurationType="Infinite">
+				<Event Id="791875877" Name="Play_Indoorlab_loop" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="573369714"/>
 					</MediaRefs>
@@ -67,7 +62,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{ADE239D5-300F-A353-6EA3-1A7867458E2B}">
+		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{701F2233-8BDE-C10A-66E2-6AB33B8CC5F1}">
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<Media>
@@ -85,7 +80,7 @@
 				</File>
 				<File Id="289511662" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Sounds\light_flicker_02.wav</ShortName>
-					<CachePath>SFX/Sounds/light_flicker_02_05842A19.wem</CachePath>
+					<CachePath>SFX/Sounds/light_flicker_02_B2C98687.wem</CachePath>
 				</File>
 				<File Id="312541516" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Sounds\typing_01.wav</ShortName>
@@ -97,7 +92,7 @@
 				</File>
 				<File Id="380624205" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Sounds\light_flicker_03.wav</ShortName>
-					<CachePath>SFX/Sounds/light_flicker_03_05842A19.wem</CachePath>
+					<CachePath>SFX/Sounds/light_flicker_03_74C18F1C.wem</CachePath>
 				</File>
 				<File Id="382727337" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>Sounds\alarm_03.wav</ShortName>
@@ -132,7 +127,7 @@
 				</File>
 				<File Id="652417740" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Sounds\light_flicker_01.wav</ShortName>
-					<CachePath>SFX/Sounds/light_flicker_01_05842A19.wem</CachePath>
+					<CachePath>SFX/Sounds/light_flicker_01_F1700F2A.wem</CachePath>
 				</File>
 				<File Id="684232445" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Sounds\mach_01.wav</ShortName>
@@ -153,7 +148,7 @@
 				</File>
 				<File Id="758196176" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Sounds\light_flicker_04.wav</ShortName>
-					<CachePath>SFX/Sounds/light_flicker_04_05842A19.wem</CachePath>
+					<CachePath>SFX/Sounds/light_flicker_04_CF148D6C.wem</CachePath>
 				</File>
 				<File Id="853147906" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>lights_on_02.wav</ShortName>
@@ -181,8 +176,9 @@
 					<ShortName>Sounds\radio_on.wav</ShortName>
 					<CachePath>SFX/Sounds/radio_on_05842A19.wem</CachePath>
 				</File>
-				<File Id="972958394" Language="SFX" Streaming="false" Location="Memory">
+				<File Id="972958394" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>Sounds\static.wav</ShortName>
+					<Path>Media/972958394.wem</Path>
 					<CachePath>SFX/Sounds/static_6AF693E7.wem</CachePath>
 				</File>
 				<File Id="979419685" Language="SFX" Streaming="false" Location="Memory">
@@ -216,7 +212,7 @@
 						<MediaRef Id="693315936"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="384671264" Name="Play_Lights_Flicker" DurationType="OneShot" DurationMin="0.45759636" DurationMax="1.7262131">
+				<Event Id="384671264" Name="Play_Lights_Flicker" MaxAttenuation="30" DurationType="OneShot" DurationMin="0.06224012" DurationMax="0.21280275">
 					<MediaRefs>
 						<MediaRef Id="289511662"/>
 						<MediaRef Id="380624205"/>
@@ -236,14 +232,10 @@
 						<MediaRef Id="135733143"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3045242701" Name="Play_powerdown_01" DurationType="OneShot" DurationMin="2.5921087" DurationMax="2.5921087">
-					<MediaRefs>
-						<MediaRef Id="979419685"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="3045242702" Name="Play_powerdown_02" DurationType="OneShot" DurationMin="1.993288" DurationMax="1.993288">
+				<Event Id="2298942465" Name="Play_powerdown" DurationType="OneShot" DurationMin="2.5921087" DurationMax="2.5921087">
 					<MediaRefs>
 						<MediaRef Id="546594104"/>
+						<MediaRef Id="979419685"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2876792902" Name="Play_powerup" DurationType="OneShot" DurationMin="1.2630385" DurationMax="1.2630385">
@@ -332,10 +324,13 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{FFDBC39E-F7CE-C8D3-FEF9-34BD7647D6F5}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{FB6EF392-48FA-CD08-9FFC-4664D580DD60}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
+				<Sharesets>
+					<Plugin Id="195408523" Name="Level_Meter" LibName="Wwise Meter" LibId="8454147"/>
+				</Sharesets>
 				<AudioDevices>
 					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
 					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
@@ -344,11 +339,19 @@
 			<Busses>
 				<Bus Id="85412153" Name="Ambience"/>
 				<Bus Id="393239870" Name="SFX"/>
-				<Bus Id="3313685232" Name="Voices"/>
+				<Bus Id="3313685232" Name="Voices">
+					<PluginRefs>
+						<Sharesets>
+							<PluginRef Id="195408523"/>
+						</Sharesets>
+					</PluginRefs>
+				</Bus>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 				<Bus Id="3991942870" Name="Music"/>
 			</Busses>
 			<GameParameters>
+				<GameParameter Id="195408523" Name="Level_Meter"/>
+				<GameParameter Id="411515110" Name="Light_Flicker"/>
 				<GameParameter Id="796049864" Name="RPM"/>
 				<GameParameter Id="822163944" Name="SS_Air_RPM"/>
 				<GameParameter Id="1029930033" Name="SS_Air_Fury"/>
@@ -483,7 +486,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="1534528548" Type="User" Language="SFX" Hash="{1C9F6493-A15F-35F9-C68F-58FF458A5738}">
+		<SoundBank Id="1534528548" Type="User" Language="SFX" Hash="{087EC159-DAFF-B354-500D-83FC4AAC283C}">
 			<ShortName>VO</ShortName>
 			<Path>VO.bnk</Path>
 			<Media>
@@ -582,5 +585,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{7E542531-71CE-7637-2B7D-CD38F4F11B8C}</FileHash>
+	<FileHash>{9F53BA76-0856-3611-C248-9FAC44076DF3}</FileHash>
 </SoundBanksInfo>
