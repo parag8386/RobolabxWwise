@@ -33,12 +33,17 @@ namespace Robolab.Story.Behaviour
                     for (int i = 0; i < _storyGameObjectReferences.LightObjects.Length; i++)
                     {
                         int enable = Random.Range(minInclusive: 0, maxExclusive: 2);
-                        _storyGameObjectReferences.LightObjects[i].enabled = (enable > 0);
+                        bool enableLight = (enable > 0);
+                        _storyGameObjectReferences.LightObjects[i].enabled = enableLight;
+                        if (enableLight)
+                        {
+                            WwiseEventHelper.PostEventID(WwiseEventIDs.LIGHT_FLICKER, _storyGameObjectReferences.LightObjects[i].gameObject);
+                        }
                     }
                     _flickerUpdateDuration = Random.Range(minInclusive: _flickerFrequency.x, maxInclusive: _flickerFrequency.y);
-                    WwiseEventHelper.PostEventID(WwiseEventIDs.LIGHT_FLICKER, _storyGameObjectReferences.LightAudioEmitter1);
-                    WwiseEventHelper.PostEventID(WwiseEventIDs.LIGHT_FLICKER, _storyGameObjectReferences.LightAudioEmitter2);
-                    WwiseEventHelper.PostEventID(WwiseEventIDs.LIGHT_FLICKER, _storyGameObjectReferences.LightAudioEmitter3);
+                    //WwiseEventHelper.PostEventID(WwiseEventIDs.LIGHT_FLICKER, _storyGameObjectReferences.LightAudioEmitter1);
+                    //WwiseEventHelper.PostEventID(WwiseEventIDs.LIGHT_FLICKER, _storyGameObjectReferences.LightAudioEmitter2);
+                    //WwiseEventHelper.PostEventID(WwiseEventIDs.LIGHT_FLICKER, _storyGameObjectReferences.LightAudioEmitter3);
                 }
             }
             else
@@ -56,9 +61,9 @@ namespace Robolab.Story.Behaviour
         {
             base.OnStateExit(animator, stateInfo, layerIndex);
 
-            WwiseEventHelper.StopEventID(WwiseEventIDs.LIGHT_FLICKER, _storyGameObjectReferences.LightAudioEmitter1);
-            WwiseEventHelper.StopEventID(WwiseEventIDs.LIGHT_FLICKER, _storyGameObjectReferences.LightAudioEmitter2);
-            WwiseEventHelper.StopEventID(WwiseEventIDs.LIGHT_FLICKER, _storyGameObjectReferences.LightAudioEmitter3);
+            //WwiseEventHelper.StopEventID(WwiseEventIDs.LIGHT_FLICKER, _storyGameObjectReferences.LightAudioEmitter1);
+            //WwiseEventHelper.StopEventID(WwiseEventIDs.LIGHT_FLICKER, _storyGameObjectReferences.LightAudioEmitter2);
+            //WwiseEventHelper.StopEventID(WwiseEventIDs.LIGHT_FLICKER, _storyGameObjectReferences.LightAudioEmitter3);
         }
     }
 }

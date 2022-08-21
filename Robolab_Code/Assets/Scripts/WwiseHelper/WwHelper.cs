@@ -19,7 +19,7 @@ namespace Robolab.Wwise.Events
         // SFX
         public const string LIGHT_FLICKER = "Play_Lights_Flicker";
         public const string STOP_ALL = "Stop_All";
-        public const string PLAY_POWERDOWN_01 = "Play_powerdown_01";
+        public const string PLAY_POWERDOWN = "Play_powerdown";
         public const string PLAY_POWERDOWN_02 = "Play_powerdown_02";
         public const string PLAY_ROBOT_BATTERING_RAM = "Play_robot_battering_ram";
 
