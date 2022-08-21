@@ -219,9 +219,9 @@ MonoBehaviour:
   _SoundEventID: 
   _StopOnExit: 1
   _alarmColorForLights: {r: 1, g: 0, b: 0, a: 1}
-  _defaultLightIntensity: 1
-  _alarmPulseTime: 1
-  _alarmDecayMultiplier: 1
+  _defaultLightIntensity: 1.5
+  _alarmPulseTime: 0.46
+  _alarmDecayMultiplier: 1.92
 --- !u!1102 &-4867363094343333410
 AnimatorState:
   serializedVersion: 6
@@ -427,9 +427,9 @@ MonoBehaviour:
   _SoundEventID: Play_alarm_01_loop
   _StopOnExit: 0
   _alarmColorForLights: {r: 1, g: 0, b: 0, a: 1}
-  _defaultLightIntensity: 1
-  _alarmPulseTime: 1
-  _alarmDecayMultiplier: 1
+  _defaultLightIntensity: 1.5
+  _alarmPulseTime: 1.495
+  _alarmDecayMultiplier: 0.8
 --- !u!1102 &268332670414724901
 AnimatorState:
   serializedVersion: 6
