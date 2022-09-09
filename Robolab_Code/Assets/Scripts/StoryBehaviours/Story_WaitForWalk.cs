@@ -14,7 +14,7 @@ namespace Robolab.Story.Behaviour
         {
             base.OnStateEnter(animator, stateInfo, layerIndex);
 
-            RigidbodyFirstPersonController.s_LockMovement = false;
+            _storyGameObjectReferences.RigidbodyFirstPersonController.LockMovement = false;
         }
 
         public override void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)

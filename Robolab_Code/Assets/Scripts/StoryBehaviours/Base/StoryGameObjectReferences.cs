@@ -1,10 +1,13 @@
 namespace Robolab.Story
 {
+    using System;
     using UnityStandardAssets.Characters.FirstPerson;
     using UnityEngine;
 
     public class StoryGameObjectReferences : MonoBehaviour
     {
+        public const string PLAYER_TAG = "Player";
+
         [Header("Ambience Objects")]
         public GameObject GenericAmbience = default;
         public GameObject StaticRobotLab = default;
@@ -17,6 +20,9 @@ namespace Robolab.Story
 
         [Header("Player")]
         public RigidbodyFirstPersonController RigidbodyFirstPersonController;
+
+        [Header("Terminals")]
+        public Terminal[] Terminals;
 
         [Header("Lights")]
         public Light[] LightObjects = default;
@@ -31,5 +37,24 @@ namespace Robolab.Story
 
         [Header("Particles")]
         public ParticleSystem[] FanParticles = default;
+
+        private Color[] _defaultLightColors = default;
+
+        private void Start()
+        {
+            _defaultLightColors = new Color[LightObjects.Length];
+            for (int i = 0; i < _defaultLightColors.Length; i++)
+            {
+                _defaultLightColors[i] = LightObjects[i].color;
+            }
+        }
+
+        public void RestoreLightColorsToDefault()
+        {
+            for (int i = 0; i < _defaultLightColors.Length; i++)
+            {
+                LightObjects[i].color = _defaultLightColors[i];
+            }
+        }
     }
 }

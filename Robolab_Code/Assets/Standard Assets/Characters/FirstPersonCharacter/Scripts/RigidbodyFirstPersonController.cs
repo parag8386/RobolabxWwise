@@ -1,3 +1,4 @@
+using JetBrains.Annotations;
 using System;
 using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
@@ -8,8 +9,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
     [RequireComponent(typeof (CapsuleCollider))]
     public class RigidbodyFirstPersonController : MonoBehaviour
     {
-        public static bool s_LockMovement { get; set; }
-        public static bool s_LockLooking { get; set; }
+        public bool LockMovement { get; set; }
+        public bool LockLooking { get; set; }
 
         [Serializable]
         public class MovementSettings
@@ -120,7 +121,6 @@ namespace UnityStandardAssets.Characters.FirstPerson
             }
         }
 
-
         private void Start()
         {
             m_RigidBody = GetComponent<Rigidbody>();
@@ -133,7 +133,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
         {
             RotateView();
 
-            if (CrossPlatformInputManager.GetButtonDown("Jump") && !m_Jump && !s_LockMovement)
+            if (CrossPlatformInputManager.GetButtonDown("Jump") && !m_Jump && !LockMovement)
             {
                 m_Jump = true;
             }
@@ -214,7 +214,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
         private Vector2 GetInput()
         {
-            if (s_LockMovement)
+            if (LockMovement)
                 return Vector2.zero;
 
             Vector2 input = new Vector2
@@ -230,7 +230,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
         private void RotateView()
         {
             //avoids the mouse looking if the game is effectively paused
-            if ((Mathf.Abs(Time.timeScale) < float.Epsilon) || s_LockLooking) return;
+            if ((Mathf.Abs(Time.timeScale) < float.Epsilon) || LockLooking) return;
 
             // get the rotation before it's changed
             float oldYRotation = transform.eulerAngles.y;

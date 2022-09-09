@@ -21,7 +21,7 @@ namespace Robolab.Story.Behaviour
             WwiseEventHelper.PostEventID(WwiseEventIDs.PLAY_FAN_BLADE_LOOP, _storyGameObjectReferences.Fan);
 
             // Lock movement
-            RigidbodyFirstPersonController.s_LockMovement = true;
+            _storyGameObjectReferences.RigidbodyFirstPersonController.LockMovement = true;
         }
     }
 }

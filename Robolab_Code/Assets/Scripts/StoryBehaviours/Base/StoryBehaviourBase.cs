@@ -1,18 +1,20 @@
 namespace Robolab.Story.Behaviour
 {
+    using Robolab.UI;
     using UnityEngine;
 
     public class StoryBehaviourBase : StateMachineBehaviour
     {
         private const string STORY_STATE_INDEX_PARAMETER = "Story_State_Index";
 
-        [SerializeField, Tooltip("Set to -1 to disable the timed exit")] private float _stayInStateForSeconds = 2f;
-        [SerializeField] private int _storyStateIndexToTransitionTo = -1;
+        [SerializeField, Tooltip("Set to -1 to disable the timed exit")] protected float _stayInStateForSeconds = 2f;
+        [SerializeField] protected int _storyStateIndexToTransitionTo = -1;
 
         protected StoryGameObjectReferences _storyGameObjectReferences = null;
+        protected UIReferences _UIReferences = null;
 
         protected float _timeInState = 0f;
-        private int _storyStateIndexParameterHash = Animator.StringToHash(STORY_STATE_INDEX_PARAMETER);
+        protected int _storyStateIndexParameterHash = Animator.StringToHash(STORY_STATE_INDEX_PARAMETER);
 
         public override void OnStateMachineEnter(Animator animator, int stateMachinePathHash)
         {
@@ -61,6 +63,12 @@ namespace Robolab.Story.Behaviour
             if (_storyGameObjectReferences == null)
             {
                 _storyGameObjectReferences = animator.gameObject.GetComponent<StoryGameObjectReferences>();
+            }
+
+            // Init references to story objects
+            if (_UIReferences == null)
+            {
+                _UIReferences = animator.gameObject.GetComponent<UIReferences>();
             }
 
             // Init time in state variable

@@ -21,7 +21,10 @@ namespace Robolab.Wwise.Events
         public const string STOP_ALL = "Stop_All";
         public const string PLAY_POWERDOWN = "Play_powerdown";
         public const string PLAY_POWERDOWN_02 = "Play_powerdown_02";
+        public const string PLAY_POWERUP = "Play_powerup";
         public const string PLAY_ROBOT_BATTERING_RAM = "Play_robot_battering_ram";
+        public const string PLAY_TERMINALS = "Play_Terminals";
+        public const string PLAY_TYPING = "Play_Typing";
 
         // Radio
         public const string RADIO_ON = "Play_radio_on";

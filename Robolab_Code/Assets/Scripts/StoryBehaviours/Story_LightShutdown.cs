@@ -2,7 +2,6 @@ namespace Robolab.Story.Behaviour
 {
     using Robolab.Wwise.Events;
     using UnityEngine;
-    using UnityEngine.Animations;
 
     public class Story_LightShutdown : StoryBehaviourBase
     {

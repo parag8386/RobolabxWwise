@@ -4,6 +4,8 @@ namespace Robolab.Story.Behaviour
 
     public class Story_Alarm : Story_PlaySound
     {
+        private const string ALARM_STATE_INDEX_PARAMETER = "Alarm_State_Index";
+
         [SerializeField] private Color _alarmColorForLights = Color.red;
 
         [SerializeField] private float _defaultLightIntensity = 1f;
@@ -15,6 +17,8 @@ namespace Robolab.Story.Behaviour
 
         public override void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
         {
+            _storyStateIndexParameterHash = Animator.StringToHash(ALARM_STATE_INDEX_PARAMETER);
+
             base.OnStateEnter(animator, stateInfo, layerIndex);
 
             for (int i = 0; i < _storyGameObjectReferences.LightObjects.Length; i++)
