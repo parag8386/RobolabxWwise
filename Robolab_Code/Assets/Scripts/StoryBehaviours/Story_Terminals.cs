@@ -1,6 +1,7 @@
 namespace Robolab.Story.Behaviour
 {
     using System;
+    using Robolab.UI;
     using Robolab.Wwise.Events;
     using UnityEngine;
     using UnityEngine.Animations;
@@ -8,7 +9,6 @@ namespace Robolab.Story.Behaviour
     public class Story_Terminals : StoryBehaviourBase
     {
         private const int SUCCESS_STATE_INDEX = 10;
-        private const int FAILURE_STATE_INDEX = -1;
 
         private const string TERMINAL_2_VO_ID = "Play_VO_F_Line05";
         private const string TERMINAL_3_VO_ID = "Play_VO_F_Line06";
@@ -29,6 +29,9 @@ namespace Robolab.Story.Behaviour
             // Activate first terminal
             _storyGameObjectReferences.Terminals[_terminalToActivate].SetTerminalInteractable(true);
             _UIReferences.CountdownTimeDisplay.gameObject.SetActive(true);
+            _UIReferences.TerminalMarker.gameObject.SetActive(true);
+            _UIReferences.TerminalMarker.TextMesh.text = $"{_terminalToActivate + 1}";
+            _UIReferences.TerminalMarker.UpdateTarget(_storyGameObjectReferences.Terminals[_terminalToActivate].transform);
         }
 
         public override void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
@@ -55,6 +58,7 @@ namespace Robolab.Story.Behaviour
                 _storyStateIndexToTransitionTo = SUCCESS_STATE_INDEX;
                 _timeInState = 0f;
                 _UIReferences.CountdownTimeDisplay.gameObject.SetActive(false);
+                _UIReferences.TerminalMarker.gameObject.SetActive(false);
             }
         }
 
@@ -88,6 +92,8 @@ namespace Robolab.Story.Behaviour
             if (_terminalToActivate < _storyGameObjectReferences.Terminals.Length)
             {
                 _storyGameObjectReferences.Terminals[_terminalToActivate].SetTerminalInteractable(true);
+                _UIReferences.TerminalMarker.UpdateTarget(_storyGameObjectReferences.Terminals[_terminalToActivate].transform);
+                _UIReferences.TerminalMarker.TextMesh.text = $"{_terminalToActivate + 1}";
             }
         }
 
