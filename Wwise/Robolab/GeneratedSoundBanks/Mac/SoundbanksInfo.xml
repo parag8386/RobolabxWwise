@@ -62,7 +62,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{EAFCC91F-AE0E-589B-3450-5ABE58F8E457}">
+		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{5D880ED3-00C4-BAD1-C3FF-3289FEFC2794}">
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<Media>
@@ -202,6 +202,7 @@
 						<MediaRef Id="382727337"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1366716130" Name="Play_Amb_Metal" MaxAttenuation="100" DurationType="Infinite"/>
 				<Event Id="891405407" Name="Play_fan_blade_loop" MaxAttenuation="20" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="581975956"/>
@@ -303,6 +304,7 @@
 					</MediaRefs>
 				</Event>
 				<Event Id="452547817" Name="Stop_All" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="511159980" Name="Stop_Amb_Metal" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="1552245617" Name="Stop_fan_blade_loop" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
 					<MediaRefs>
 						<MediaRef Id="581975956"/>
@@ -586,5 +588,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{1C051496-4003-8FC9-F64E-53500E2EF8D6}</FileHash>
+	<FileHash>{179AD18C-D05B-6C19-C5EB-6BF13564033F}</FileHash>
 </SoundBanksInfo>

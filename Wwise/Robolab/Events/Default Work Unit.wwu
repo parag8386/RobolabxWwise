@@ -268,6 +268,65 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Amb_Metal" ID="{45C7E55F-42F1-43F4-9BD0-C3A04BA6C5A9}">
+							<ChildrenList>
+								<Action Name="" ID="{8BD9C207-2F92-480F-AA59-011524A5397A}" ShortID="688661909">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Amb_Metal_Bang" ID="{E4C01ABE-F582-4768-9F9E-3C03F1CFAD12}" WorkUnitID="{9E48AE89-A47B-410E-817C-4E13776F5DE3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{B0F3FA6E-B7EA-4476-B35E-FE5C19A7AD6C}" ShortID="242493514">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Amb_Metal_BigBang" ID="{D832AC6D-91A0-4AFD-A4C0-132976955036}" WorkUnitID="{9E48AE89-A47B-410E-817C-4E13776F5DE3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{45BEF88E-5574-4A5D-B45F-56F61159F2BD}" ShortID="663343270">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Amb_Metal_Creak" ID="{4D206A67-1D74-4816-80CA-8DA4C16CAEA2}" WorkUnitID="{9E48AE89-A47B-410E-817C-4E13776F5DE3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Amb_Metal" ID="{CF7330DF-6902-4B70-A814-816B5B5D0847}">
+							<ChildrenList>
+								<Action Name="" ID="{696931C5-4CC5-4B2A-92C2-1268B6DAA709}" ShortID="842151750">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Amb_Metal_Bang" ID="{E4C01ABE-F582-4768-9F9E-3C03F1CFAD12}" WorkUnitID="{9E48AE89-A47B-410E-817C-4E13776F5DE3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{5A02AA98-A7FA-4B74-AF31-8DA79C6B6E24}" ShortID="309396950">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Amb_Metal_BigBang" ID="{D832AC6D-91A0-4AFD-A4C0-132976955036}" WorkUnitID="{9E48AE89-A47B-410E-817C-4E13776F5DE3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{BA7D4A8D-D2D5-4EEF-B131-EC5A706BD2B7}" ShortID="175597556">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Amb_Metal_Creak" ID="{4D206A67-1D74-4816-80CA-8DA4C16CAEA2}" WorkUnitID="{9E48AE89-A47B-410E-817C-4E13776F5DE3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Music" ID="{806897FB-24CA-4CE8-ABD3-3206A994A3FA}" ShortID="249584417">

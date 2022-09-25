@@ -2416,6 +2416,457 @@
 								</BlendTrack>
 							</BlendTrackList>
 						</BlendContainer>
+						<Folder Name="Metal" ID="{554910CC-9D60-4599-82A0-7A54E5823A15}" ShortID="179209193">
+							<ChildrenList>
+								<ActorMixer Name="Metal" ID="{9ADF1436-A251-49CF-A19F-90645F01C8A1}" ShortID="281185312">
+									<PropertyList>
+										<Property Name="3DPosition" Type="int16" Value="1"/>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>10</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{D62D5353-5D30-478D-BF6F-B70A6BD91DAE}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-25"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{A06FFBAD-B18B-44AF-B720-BFB239804919}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-250"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{87438F5C-2CC6-4C1F-80E1-883CE297181A}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-3"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<Custom>
+												<Attenuation Name="Attenuation (Custom)" ID="{6B9F152A-6A78-4CED-994D-34E5B9E790C5}" ShortID="30012793">
+													<CurveUsageInfoList>
+														<VolumeDryUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																<Curve Name="VolumeDry" ID="{7BCE1572-8D7C-42E7-BBD2-464FD7208365}">
+																	<PropertyList>
+																		<Property Name="Flags" Type="int32" Value="3"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>0</YPos>
+																			<Flags>5</Flags>
+																		</Point>
+																		<Point>
+																			<XPos>100</XPos>
+																			<YPos>-200</YPos>
+																			<Flags>37</Flags>
+																		</Point>
+																	</PointList>
+																</Curve>
+															</CurveUsageInfo>
+														</VolumeDryUsage>
+														<VolumeWetGameUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+														</VolumeWetGameUsage>
+														<VolumeWetUserUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+														</VolumeWetUserUsage>
+														<LowPassFilterUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</LowPassFilterUsage>
+														<HighPassFilterUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</HighPassFilterUsage>
+														<SpreadUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</SpreadUsage>
+														<FocusUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</FocusUsage>
+														<ObstructionVolumeUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</ObstructionVolumeUsage>
+														<ObstructionLPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</ObstructionLPFUsage>
+														<ObstructionHPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</ObstructionHPFUsage>
+														<OcclusionVolumeUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</OcclusionVolumeUsage>
+														<OcclusionLPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</OcclusionLPFUsage>
+														<OcclusionHPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</OcclusionHPFUsage>
+														<DiffractionVolumeUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</DiffractionVolumeUsage>
+														<DiffractionLPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</DiffractionLPFUsage>
+														<DiffractionHPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</DiffractionHPFUsage>
+														<TransmissionVolumeUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</TransmissionVolumeUsage>
+														<TransmissionLPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</TransmissionLPFUsage>
+														<TransmissionHPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</TransmissionHPFUsage>
+													</CurveUsageInfoList>
+												</Attenuation>
+											</Custom>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4BAC6818-33C7-45D0-9AB9-C5E8A8294397}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B6CDEF7E-92A3-4AC4-9ED3-061DE7002CF4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Amb_Metal_Creak" ID="{4D206A67-1D74-4816-80CA-8DA4C16CAEA2}" ShortID="13628707">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4BAC6818-33C7-45D0-9AB9-C5E8A8294397}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B6CDEF7E-92A3-4AC4-9ED3-061DE7002CF4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<SourcePlugin Name="Impacter" ID="{CB84FCD5-351F-46B9-A034-9B007FB522E6}" ShortID="192045263" PluginName="Impacter" CompanyID="0" PluginID="184">
+													<PropertyList>
+														<Property Name="FMDepth" Type="Real32" Value="0.4"/>
+														<Property Name="FMDepthRandom" Type="Real32" Value="0.6"/>
+														<Property Name="ImpactPosition" Type="Real32" Value="0.4"/>
+														<Property Name="ImpactPositionRandom" Type="Real32" Value="0.5"/>
+														<Property Name="MassRandom" Type="Real32" Value="1"/>
+														<Property Name="NumFiles" Type="int32" Value="6"/>
+														<Property Name="VelocityRandom" Type="Real32" Value="-0.5"/>
+													</PropertyList>
+													<ChildrenList>
+														<PluginMediaSource Name="Amb_Metal_Creaks_06" ID="{9A2A9303-D00C-492D-B711-4165EC55DE7B}">
+															<ParentPluginID>12058626</ParentPluginID>
+															<PropertyList>
+																<Property Name="DataFileName" Type="string" Value="Amb_Metal_Creaks_06.wav"/>
+															</PropertyList>
+															<MediaIDList>
+																<MediaID ID="422091319"/>
+															</MediaIDList>
+														</PluginMediaSource>
+														<PluginMediaSource Name="Amb_Metal_Creaks_05" ID="{C5B973B2-5A21-4F36-B232-9A458B2CCF85}">
+															<ParentPluginID>12058626</ParentPluginID>
+															<PropertyList>
+																<Property Name="DataFileName" Type="string" Value="Amb_Metal_Creaks_05.wav"/>
+															</PropertyList>
+															<MediaIDList>
+																<MediaID ID="1059577403"/>
+															</MediaIDList>
+														</PluginMediaSource>
+														<PluginMediaSource Name="Amb_Metal_Creaks_04" ID="{57947ECC-3F05-4B53-A565-D5A830CAB4AE}">
+															<ParentPluginID>12058626</ParentPluginID>
+															<PropertyList>
+																<Property Name="DataFileName" Type="string" Value="Amb_Metal_Creaks_04.wav"/>
+															</PropertyList>
+															<MediaIDList>
+																<MediaID ID="898696952"/>
+															</MediaIDList>
+														</PluginMediaSource>
+														<PluginMediaSource Name="Amb_Metal_Creaks_03" ID="{E97C9BEF-065E-45EC-9741-8D4B7D6BA3F6}">
+															<ParentPluginID>12058626</ParentPluginID>
+															<PropertyList>
+																<Property Name="DataFileName" Type="string" Value="Amb_Metal_Creaks_03.wav"/>
+															</PropertyList>
+															<MediaIDList>
+																<MediaID ID="534799110"/>
+															</MediaIDList>
+														</PluginMediaSource>
+														<PluginMediaSource Name="Amb_Metal_Creaks_02" ID="{219C35C6-E726-4255-93F2-1B7334B08703}">
+															<ParentPluginID>12058626</ParentPluginID>
+															<PropertyList>
+																<Property Name="DataFileName" Type="string" Value="Amb_Metal_Creaks_02.wav"/>
+															</PropertyList>
+															<MediaIDList>
+																<MediaID ID="65392639"/>
+															</MediaIDList>
+														</PluginMediaSource>
+														<PluginMediaSource Name="Amb_Metal_Creaks_01" ID="{41B2173E-0E3C-4ACD-90EA-B848173444FC}">
+															<ParentPluginID>12058626</ParentPluginID>
+															<PropertyList>
+																<Property Name="DataFileName" Type="string" Value="Amb_Metal_Creaks_01.wav"/>
+															</PropertyList>
+															<MediaIDList>
+																<MediaID ID="898248677"/>
+															</MediaIDList>
+														</PluginMediaSource>
+													</ChildrenList>
+													<Language>SFX</Language>
+												</SourcePlugin>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Impacter" ID="{CB84FCD5-351F-46B9-A034-9B007FB522E6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Amb_Metal_BigBang" ID="{D832AC6D-91A0-4AFD-A4C0-132976955036}" ShortID="908845841">
+											<PropertyList>
+												<Property Name="InitialDelay" Type="Real64">
+													<ValueList>
+														<Value>5</Value>
+													</ValueList>
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{82BC60A4-BC4C-4AAD-B218-53016EDBFE44}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Min" Type="Real64" Value="-25"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4BAC6818-33C7-45D0-9AB9-C5E8A8294397}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B6CDEF7E-92A3-4AC4-9ED3-061DE7002CF4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<SourcePlugin Name="Impacter" ID="{EABB0DFB-03DE-4699-8C4F-F9F3F2C2BA14}" ShortID="349792228" PluginName="Impacter" CompanyID="0" PluginID="184">
+													<PropertyList>
+														<Property Name="FMDepthRandom" Type="Real32" Value="0.4"/>
+														<Property Name="MassRandom" Type="Real32" Value="0.5"/>
+														<Property Name="NumFiles" Type="int32" Value="5"/>
+														<Property Name="VelocityRandom" Type="Real32" Value="-0.3"/>
+													</PropertyList>
+													<ChildrenList>
+														<PluginMediaSource Name="Amb_Metal_BigBang_05" ID="{BE7A9139-ABF9-4AC6-A4ED-8490A7585A48}">
+															<ParentPluginID>12058626</ParentPluginID>
+															<PropertyList>
+																<Property Name="DataFileName" Type="string" Value="Amb_Metal_BigBang_05.wav"/>
+															</PropertyList>
+															<MediaIDList>
+																<MediaID ID="890230729"/>
+															</MediaIDList>
+														</PluginMediaSource>
+														<PluginMediaSource Name="Amb_Metal_BigBang_04" ID="{F1103699-0C63-4BE1-98E3-1B4F02D39D9D}">
+															<ParentPluginID>12058626</ParentPluginID>
+															<PropertyList>
+																<Property Name="DataFileName" Type="string" Value="Amb_Metal_BigBang_04.wav"/>
+															</PropertyList>
+															<MediaIDList>
+																<MediaID ID="555111886"/>
+															</MediaIDList>
+														</PluginMediaSource>
+														<PluginMediaSource Name="Amb_Metal_BigBang_03" ID="{1DD8BE87-F093-4598-95BF-34CD761B0F23}">
+															<ParentPluginID>12058626</ParentPluginID>
+															<PropertyList>
+																<Property Name="DataFileName" Type="string" Value="Amb_Metal_BigBang_03.wav"/>
+															</PropertyList>
+															<MediaIDList>
+																<MediaID ID="348536939"/>
+															</MediaIDList>
+														</PluginMediaSource>
+														<PluginMediaSource Name="Amb_Metal_BigBang_02" ID="{0A10D14C-BA3D-4935-8F40-FB305EB8A141}">
+															<ParentPluginID>12058626</ParentPluginID>
+															<PropertyList>
+																<Property Name="DataFileName" Type="string" Value="Amb_Metal_BigBang_02.wav"/>
+															</PropertyList>
+															<MediaIDList>
+																<MediaID ID="516246318"/>
+															</MediaIDList>
+														</PluginMediaSource>
+														<PluginMediaSource Name="Amb_Metal_BigBang_01" ID="{B025E809-E070-4C56-844A-1E0ADB56539E}">
+															<ParentPluginID>12058626</ParentPluginID>
+															<PropertyList>
+																<Property Name="DataFileName" Type="string" Value="Amb_Metal_BigBang_01.wav"/>
+															</PropertyList>
+															<MediaIDList>
+																<MediaID ID="122876671"/>
+															</MediaIDList>
+														</PluginMediaSource>
+													</ChildrenList>
+													<Language>SFX</Language>
+												</SourcePlugin>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Impacter" ID="{EABB0DFB-03DE-4699-8C4F-F9F3F2C2BA14}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Amb_Metal_Bang" ID="{E4C01ABE-F582-4768-9F9E-3C03F1CFAD12}" ShortID="459253416">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="Lowpass" Type="int16">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{0BEB191A-1E69-4C3C-AFC4-914383CD35CE}"/>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4BAC6818-33C7-45D0-9AB9-C5E8A8294397}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B6CDEF7E-92A3-4AC4-9ED3-061DE7002CF4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<SourcePlugin Name="Impacter" ID="{5686E0CF-7B47-4E7F-ADF7-98104644B1E2}" ShortID="608578827" PluginName="Impacter" CompanyID="0" PluginID="184">
+													<PropertyList>
+														<Property Name="FMDepthRandom" Type="Real32" Value="0.4"/>
+														<Property Name="MassRandom" Type="Real32" Value="0.5"/>
+														<Property Name="NumFiles" Type="int32" Value="4"/>
+														<Property Name="VelocityRandom" Type="Real32" Value="-0.3"/>
+													</PropertyList>
+													<ChildrenList>
+														<PluginMediaSource Name="Amb_Metal_Bang_04" ID="{7626112A-D86E-4F5D-9FE1-11A0F25FDE00}">
+															<ParentPluginID>12058626</ParentPluginID>
+															<PropertyList>
+																<Property Name="DataFileName" Type="string" Value="Amb_Metal_Bang_04.wav"/>
+															</PropertyList>
+															<MediaIDList>
+																<MediaID ID="441300647"/>
+															</MediaIDList>
+														</PluginMediaSource>
+														<PluginMediaSource Name="Amb_Metal_Bang_03" ID="{5C827697-B4BE-4F85-AAE8-972DE7E2CDC9}">
+															<ParentPluginID>12058626</ParentPluginID>
+															<PropertyList>
+																<Property Name="DataFileName" Type="string" Value="Amb_Metal_Bang_03.wav"/>
+															</PropertyList>
+															<MediaIDList>
+																<MediaID ID="154665712"/>
+															</MediaIDList>
+														</PluginMediaSource>
+														<PluginMediaSource Name="Amb_Metal_Bang_02" ID="{6414012D-7537-43A4-8C63-FBB13745B4CD}">
+															<ParentPluginID>12058626</ParentPluginID>
+															<PropertyList>
+																<Property Name="DataFileName" Type="string" Value="Amb_Metal_Bang_02.wav"/>
+															</PropertyList>
+															<MediaIDList>
+																<MediaID ID="313091705"/>
+															</MediaIDList>
+														</PluginMediaSource>
+														<PluginMediaSource Name="Amb_Metal_Bang_01" ID="{AF5180BD-C41B-4A61-A38D-9422E56E509B}">
+															<ParentPluginID>12058626</ParentPluginID>
+															<PropertyList>
+																<Property Name="DataFileName" Type="string" Value="Amb_Metal_Bang_01.wav"/>
+															</PropertyList>
+															<MediaIDList>
+																<MediaID ID="266769127"/>
+															</MediaIDList>
+														</PluginMediaSource>
+													</ChildrenList>
+													<Language>SFX</Language>
+												</SourcePlugin>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Impacter" ID="{5686E0CF-7B47-4E7F-ADF7-98104644B1E2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<PositioningInfo>
+										<Position Name="" ID="{9B271B8C-1094-47D2-989C-23F3E56AABEA}">
+											<PropertyList>
+												<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="PlayMechanismTransitionTime" Type="Real64" Value="0"/>
+											</PropertyList>
+											<ChildrenList>
+												<Path2D Name="Metal_Path" ID="{E1EBD738-1DCB-431B-A59A-0BA3D3908C5D}">
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>50</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+												<Path2D Name="Metal_Path_01" ID="{5030968A-36D4-4F26-9D0A-21DA9A697C23}">
+													<PointList>
+														<Point>
+															<XPos>-71.5736</XPos>
+															<YPos>59.03955</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+												<Path2D Name="Metal_Path_02" ID="{BF583AA3-8DBA-4512-ACD5-B1E7B966E9AE}">
+													<PointList>
+														<Point>
+															<XPos>78.6802</XPos>
+															<YPos>-54.51977</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+												<Path2D Name="Metal_Path_03" ID="{9EE78073-9E64-470C-AD4A-78D950A6CE94}">
+													<PointList>
+														<Point>
+															<XPos>-71.5736</XPos>
+															<YPos>-59.03955</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+												<Path2D Name="Metal_Path_04" ID="{A1E3AE36-80A3-4629-8263-50AA03396A26}">
+													<PointList>
+														<Point>
+															<XPos>68.52792</XPos>
+															<YPos>61.86441</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+											</ChildrenList>
+										</Position>
+									</PositioningInfo>
+								</ActorMixer>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>

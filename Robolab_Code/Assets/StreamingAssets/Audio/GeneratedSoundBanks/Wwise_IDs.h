@@ -16,6 +16,7 @@ namespace AK
         static const AkUniqueID PLAY_ALARM_01_LOOP = 827339530U;
         static const AkUniqueID PLAY_ALARM_02_LOOP = 726066639U;
         static const AkUniqueID PLAY_ALARM_03_LOOP = 2797744060U;
+        static const AkUniqueID PLAY_AMB_METAL = 1366716130U;
         static const AkUniqueID PLAY_AMBIENCE_LOOP = 1026169559U;
         static const AkUniqueID PLAY_FAN_BLADE_LOOP = 891405407U;
         static const AkUniqueID PLAY_FAN_LOOP = 1297944866U;
@@ -47,6 +48,7 @@ namespace AK
         static const AkUniqueID STOP_ALARM_02_LOOP = 3095460281U;
         static const AkUniqueID STOP_ALARM_03_LOOP = 436683974U;
         static const AkUniqueID STOP_ALL = 452547817U;
+        static const AkUniqueID STOP_AMB_METAL = 511159980U;
         static const AkUniqueID STOP_AMBIENCE_LOOP = 116129673U;
         static const AkUniqueID STOP_FAN_BLADE_LOOP = 1552245617U;
         static const AkUniqueID STOP_FAN_LOOP = 2547894692U;

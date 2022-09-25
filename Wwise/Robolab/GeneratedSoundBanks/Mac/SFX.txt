@@ -6,6 +6,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	423060956	Play_static			\Default Work Unit\SFX\Play_static	
 	436683974	Stop_alarm_03_loop			\Default Work Unit\SFX\Stop_alarm_03_loop	
 	452547817	Stop_All			\Default Work Unit\SFX\Stop_All	
+	511159980	Stop_Amb_Metal			\Default Work Unit\SFX\Stop_Amb_Metal	
 	726066639	Play_alarm_02_loop			\Default Work Unit\SFX\Play_alarm_02_loop	
 	827339530	Play_alarm_01_loop			\Default Work Unit\SFX\Play_alarm_01_loop	
 	891405407	Play_fan_blade_loop			\Default Work Unit\Ambience\Play_fan_blade_loop	
@@ -15,6 +16,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1249145528	Stop_alarm_01_loop			\Default Work Unit\SFX\Stop_alarm_01_loop	
 	1297944866	Play_fan_loop			\Default Work Unit\Ambience\Play_fan_loop	
 	1332730642	Stop_robot_arm_motor_loop			\Default Work Unit\Ambience\Stop_robot_arm_motor_loop	
+	1366716130	Play_Amb_Metal			\Default Work Unit\SFX\Play_Amb_Metal	
 	1552245617	Stop_fan_blade_loop			\Default Work Unit\Ambience\Stop_fan_blade_loop	
 	1659138091	Play_Typing			\Default Work Unit\SFX\Play_Typing	
 	1863306705	Play_radio_off			\Default Work Unit\SFX\Play_radio_off	
