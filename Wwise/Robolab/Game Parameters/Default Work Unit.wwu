@@ -5,6 +5,7 @@
 			<ChildrenList>
 				<GameParameter Name="Level_Meter" ID="{B62E8ED7-1F2E-4A94-80EF-6069E04D3241}"/>
 				<GameParameter Name="Light_Flicker" ID="{C728D782-E0F4-4E10-BD1A-E603AE8B7BFA}"/>
+				<GameParameter Name="Player_Speed" ID="{434251AB-9F84-45F2-87AD-81B6A15ACBFC}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

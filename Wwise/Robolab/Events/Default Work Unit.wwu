@@ -327,6 +327,31 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Player_Breathing" ID="{E4724CEE-8683-4D63-B849-D6C04B356632}">
+							<ChildrenList>
+								<Action Name="" ID="{9C0D5BDC-A17B-4E21-A623-515134B7F937}" ShortID="824843535">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Player_Breathing" ID="{156C0CD4-89D3-4E9E-9EAE-B938F7A2534B}" WorkUnitID="{9E48AE89-A47B-410E-817C-4E13776F5DE3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Player_Breathing" ID="{F71A985B-13AB-4BA9-8335-1ABBFB34806D}">
+							<ChildrenList>
+								<Action Name="" ID="{726A549D-E7D1-4CBA-9C85-2E5435F63772}" ShortID="845156246">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Player_Breathing" ID="{156C0CD4-89D3-4E9E-9EAE-B938F7A2534B}" WorkUnitID="{9E48AE89-A47B-410E-817C-4E13776F5DE3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Music" ID="{806897FB-24CA-4CE8-ABD3-3206A994A3FA}" ShortID="249584417">

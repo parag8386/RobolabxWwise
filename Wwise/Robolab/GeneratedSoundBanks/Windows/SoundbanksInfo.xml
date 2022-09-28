@@ -62,7 +62,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{5D880ED3-00C4-BAD1-C3FF-3289FEFC2794}">
+		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{EA626434-37A7-84BE-A149-71E904F60079}">
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<Media>
@@ -99,6 +99,10 @@
 					<Path>Media/382727337.wem</Path>
 					<CachePath>SFX/Sounds/alarm_03_6AF693E7.wem</CachePath>
 				</File>
+				<File Id="399128080" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Breathing\Player_Breathing_Fast.wav</ShortName>
+					<CachePath>SFX/Breathing/Player_Breathing_Fast_6AF693E7.wem</CachePath>
+				</File>
 				<File Id="404631437" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Sounds\radio_off.wav</ShortName>
 					<CachePath>SFX/Sounds/radio_off_05842A19.wem</CachePath>
@@ -110,6 +114,10 @@
 				<File Id="546594104" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Sounds\powerdown_02.wav</ShortName>
 					<CachePath>SFX/Sounds/powerdown_02_05842A19.wem</CachePath>
+				</File>
+				<File Id="558573370" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Breathing\Player_Breathing_Med.wav</ShortName>
+					<CachePath>SFX/Breathing/Player_Breathing_Med_6AF693E7.wem</CachePath>
 				</File>
 				<File Id="581975956" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>Sounds\fan_blade.wav</ShortName>
@@ -176,6 +184,10 @@
 					<ShortName>Sounds\radio_on.wav</ShortName>
 					<CachePath>SFX/Sounds/radio_on_05842A19.wem</CachePath>
 				</File>
+				<File Id="946323276" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Breathing\Player_Breathing_Slow.wav</ShortName>
+					<CachePath>SFX/Breathing/Player_Breathing_Slow_6AF693E7.wem</CachePath>
+				</File>
 				<File Id="972958394" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>Sounds\static.wav</ShortName>
 					<Path>Media/972958394.wem</Path>
@@ -226,6 +238,13 @@
 						<MediaRef Id="584632206"/>
 						<MediaRef Id="853147906"/>
 						<MediaRef Id="856892437"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2817161306" Name="Play_Player_Breathing" MaxAttenuation="20" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="399128080"/>
+						<MediaRef Id="558573370"/>
+						<MediaRef Id="946323276"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="948866160" Name="Play_popup" MaxAttenuation="20" DurationType="OneShot" DurationMin="1.2962584" DurationMax="1.2962584">
@@ -315,6 +334,13 @@
 						<MediaRef Id="693315936"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="466786496" Name="Stop_Player_Breathing" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<MediaRefs>
+						<MediaRef Id="399128080"/>
+						<MediaRef Id="558573370"/>
+						<MediaRef Id="946323276"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="1332730642" Name="Stop_robot_arm_motor_loop" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
 					<MediaRefs>
 						<MediaRef Id="217909898"/>
@@ -326,8 +352,11 @@
 					</MediaRefs>
 				</Event>
 			</Events>
+			<GameParameters>
+				<GameParameter Id="1062779386" Name="Player_Speed"/>
+			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{6B73C0AC-1C35-CD6E-069C-9743D5C9B907}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{8402BDB2-2F51-2184-581D-CC7C8F4DD537}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -358,6 +387,7 @@
 				<GameParameter Id="796049864" Name="RPM"/>
 				<GameParameter Id="822163944" Name="SS_Air_RPM"/>
 				<GameParameter Id="1029930033" Name="SS_Air_Fury"/>
+				<GameParameter Id="1062779386" Name="Player_Speed"/>
 				<GameParameter Id="1351367891" Name="SS_Air_Fear"/>
 				<GameParameter Id="1524500807" Name="Playback_Rate"/>
 				<GameParameter Id="1656280998" Name="RPM_FA_SSGrain"/>
@@ -588,5 +618,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{3986C72A-2C0D-9884-2EA9-BF5D3B1D05AC}</FileHash>
+	<FileHash>{B8232560-DDE6-C98D-3A66-D85BCB326E66}</FileHash>
 </SoundBanksInfo>
