@@ -81,7 +81,12 @@
 						<Property Name="Gain" Type="Real32" Value="6"/>
 					</PropertyList>
 				</Effect>
-				<Effect Name="Noise_Gate" ID="{1351BC85-A7E0-44B8-BF88-95980DEF7210}" PluginName="iZotope Trash Dynamics Mono" CompanyID="259" PluginID="5" PluginType="3"/>
+				<Effect Name="Noise_Gate" ID="{1351BC85-A7E0-44B8-BF88-95980DEF7210}" PluginName="iZotope Trash Dynamics Mono" CompanyID="259" PluginID="5" PluginType="3">
+					<PropertyList>
+						<Property Name="GateRatio" Type="Real32" Value="5"/>
+						<Property Name="GateThreshold" Type="Real32" Value="-35"/>
+					</PropertyList>
+				</Effect>
 				<Effect Name="Minus_6dB_Limit" ID="{0981FCD6-5DEA-4586-9C62-E79CED4CEC71}" PluginName="iZotope Trash Dynamics Mono" CompanyID="259" PluginID="5" PluginType="3">
 					<PropertyList>
 						<Property Name="CompressorAttack" Type="Real32" Value="0"/>
