@@ -1,10 +1,8 @@
 namespace Robolab.Story.Behaviour
 {
-    using System;
     using Robolab.UI;
     using Robolab.Wwise.Events;
     using UnityEngine;
-    using UnityEngine.Animations;
 
     public class Story_Terminals : StoryBehaviourBase
     {
@@ -29,9 +27,8 @@ namespace Robolab.Story.Behaviour
             // Activate first terminal
             _storyGameObjectReferences.Terminals[_terminalToActivate].SetTerminalInteractable(true);
             _UIReferences.CountdownTimeDisplay.gameObject.SetActive(true);
-            _UIReferences.TerminalMarker.gameObject.SetActive(true);
-            _UIReferences.TerminalMarker.TextMesh.text = $"{_terminalToActivate + 1}";
-            _UIReferences.TerminalMarker.UpdateTarget(_storyGameObjectReferences.Terminals[_terminalToActivate].transform);
+            _UIReferences.ObjectMarker.SetMarkerTarget(_storyGameObjectReferences.Terminals[_terminalToActivate].transform);
+            _UIReferences.SurroundMarker.SetTarget(_storyGameObjectReferences.Terminals[_terminalToActivate].transform);
         }
 
         public override void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
@@ -42,6 +39,7 @@ namespace Robolab.Story.Behaviour
 
             if  (_isAtCorrectTerminal)
             {
+                _UIReferences.InformationDisplay.SetInformation("Press [F] to interact", 1f);
                 if (Input.GetKeyDown(KeyCode.F))
                 {
                     _isAtCorrectTerminal = false;
@@ -51,14 +49,19 @@ namespace Robolab.Story.Behaviour
                     _storyGameObjectReferences.Terminals[_terminalToActivate].OnTerminalActivationComplete += TerminalActivated;
                 }
             }
+            else
+            {
+                _UIReferences.InformationDisplay.SetInformation(null, -1f);
+            }
 
             if (_terminalToActivate >= _storyGameObjectReferences.Terminals.Length)
             {
                 // Continue game
                 _storyStateIndexToTransitionTo = SUCCESS_STATE_INDEX;
                 _timeInState = 0f;
+                _UIReferences.ObjectMarker.SetMarkerTarget(null);
+                _UIReferences.SurroundMarker.SetTarget(null);
                 _UIReferences.CountdownTimeDisplay.gameObject.SetActive(false);
-                _UIReferences.TerminalMarker.gameObject.SetActive(false);
             }
         }
 
@@ -66,6 +69,8 @@ namespace Robolab.Story.Behaviour
         {
             base.OnStateExit(animator, stateInfo, layerIndex);
 
+            _UIReferences.ObjectMarker.SetMarkerTarget(null);
+            _UIReferences.SurroundMarker.SetTarget(null);
             for (int i = 0; i < _storyGameObjectReferences.Terminals.Length; i++)
             {
                 _storyGameObjectReferences.Terminals[i].OnPlayerEnteredTerminalRange -= PlayerEnteredTerminalRange;
@@ -92,8 +97,8 @@ namespace Robolab.Story.Behaviour
             if (_terminalToActivate < _storyGameObjectReferences.Terminals.Length)
             {
                 _storyGameObjectReferences.Terminals[_terminalToActivate].SetTerminalInteractable(true);
-                _UIReferences.TerminalMarker.UpdateTarget(_storyGameObjectReferences.Terminals[_terminalToActivate].transform);
-                _UIReferences.TerminalMarker.TextMesh.text = $"{_terminalToActivate + 1}";
+                _UIReferences.ObjectMarker.SetMarkerTarget(_storyGameObjectReferences.Terminals[_terminalToActivate].transform);
+                _UIReferences.SurroundMarker.SetTarget(_storyGameObjectReferences.Terminals[_terminalToActivate].transform);
             }
         }
 

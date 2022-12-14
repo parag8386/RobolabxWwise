@@ -1,7 +1,6 @@
 namespace Robolab.Story.Behaviour
 {
     using Robolab.Wwise.Events;
-    using UnityStandardAssets.Characters.FirstPerson;
     using UnityEngine;
 
     public class Story_Init : StoryBehaviourBase
@@ -22,6 +21,14 @@ namespace Robolab.Story.Behaviour
 
             // Lock movement
             _storyGameObjectReferences.RigidbodyFirstPersonController.LockMovement = true;
+            _storyGameObjectReferences.RigidbodyFirstPersonController.LockLooking = true;
+        }
+
+        public override void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
+        {
+            base.OnStateExit(animator, stateInfo, layerIndex);
+
+            _storyGameObjectReferences.RigidbodyFirstPersonController.LockLooking = false;
         }
     }
 }

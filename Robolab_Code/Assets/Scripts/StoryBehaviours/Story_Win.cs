@@ -9,6 +9,10 @@ namespace Robolab.Story.Behaviour
             base.OnStateEnter(animator, stateInfo, layerIndex);
 
             _UIReferences.GameWinScreen.gameObject.SetActive(true);
+            _UIReferences.HUDBase.SetActive(false);
+
+            // Play win animation
+            _storyGameObjectReferences.PostAnimation.Play("PostAdd");
         }
 
         public override void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)

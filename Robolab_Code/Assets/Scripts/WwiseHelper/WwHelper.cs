@@ -2,6 +2,7 @@ namespace Robolab.Wwise.Events
 {
     using System.Collections.Generic;
     using UnityEngine;
+    using static UnityEngine.Rendering.DebugUI;
 
     public static class WwiseEventIDs
     {
@@ -25,6 +26,7 @@ namespace Robolab.Wwise.Events
         public const string PLAY_ROBOT_BATTERING_RAM = "Play_robot_battering_ram";
         public const string PLAY_TERMINALS = "Play_Terminals";
         public const string PLAY_TYPING = "Play_Typing";
+        public const string PLAY_PLAYER_BREATHING = "Play_Player_Breathing";
 
         // Radio
         public const string RADIO_ON = "Play_radio_on";
@@ -38,6 +40,10 @@ namespace Robolab.Wwise.Events
         public const string STOP_ALARM_01_LOOP = "Stop_alarm_01_loop";
         public const string STOP_ALARM_02_LOOP = "Stop_alarm_02_loop";
         public const string STOP_ALARM_03_LOOP = "Stop_alarm_03_loop";
+
+        // Game parameters
+        public const string PLAYER_BREATHING_SPEED = "Player_Speed";
+        public const string LEVEL_METER = "Level_Meter";
     }
 
     public struct WwiseVO
@@ -98,6 +104,28 @@ namespace Robolab.Wwise.Events
             // Play radio on
             WwiseVO voObject = new WwiseVO(vo_eventID, gameObject);
             PostEventID(WwiseEventIDs.RADIO_ON, gameObject, eventCallback: VOStartEventCallback, callbackObject: voObject);
+        }
+
+        public static void SetRTPCValue(string paramterName, float value)
+        {
+            if (string.IsNullOrEmpty(paramterName))
+            {
+                return;
+            }
+
+            AkSoundEngine.SetRTPCValue(paramterName, value, AkSoundEngine.AK_INVALID_GAME_OBJECT);
+        }
+
+        public static void GetRTPCValue(string paramterName, out float value)
+        {
+            if (string.IsNullOrEmpty(paramterName))
+            {
+                value = -1f;
+                return;
+            }
+
+            int valueType = (int)AkQueryRTPCValue.RTPCValue_Global;
+            AkSoundEngine.GetRTPCValue(paramterName, AkSoundEngine.AK_INVALID_GAME_OBJECT, AkSoundEngine.AK_INVALID_PLAYING_ID, out value, ref valueType);
         }
 
         private static void PostEventCallback(object in_cookie, AkCallbackType in_type, AkCallbackInfo in_info)

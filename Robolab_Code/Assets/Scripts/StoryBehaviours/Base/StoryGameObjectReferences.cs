@@ -34,6 +34,8 @@ namespace Robolab.Story
         public Animator RobotArmAnimator = default;
         public Animator BatteringRamAnimator = default;
         public Animation LegacyFanAnimation = default;
+        public Animation CameraAnimation = default;
+        public Animation PostAnimation = default;
 
         [Header("Particles")]
         public ParticleSystem[] FanParticles = default;

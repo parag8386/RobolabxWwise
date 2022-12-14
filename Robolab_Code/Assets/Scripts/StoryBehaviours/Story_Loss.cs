@@ -9,10 +9,15 @@ namespace Robolab.Story.Behaviour
             base.OnStateEnter(animator, stateInfo, layerIndex);
 
             _UIReferences.GameLossScreen.gameObject.SetActive(true);
+            _UIReferences.HUDBase.SetActive(false);
 
             // Game over condition
             _storyGameObjectReferences.RigidbodyFirstPersonController.LockLooking = true;
             _storyGameObjectReferences.RigidbodyFirstPersonController.LockMovement = true;
+
+            // Play loss aniamtion
+            _storyGameObjectReferences.CameraAnimation.Play("Camera_Loss");
+            _storyGameObjectReferences.PostAnimation.Play("PostAdd");
         }
 
         public override void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
