@@ -1232,7 +1232,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _stayInStateForSeconds: -1
   _storyStateIndexToTransitionTo: 3
-  _minimumMoveTime: 2
+  _minimumMoveTime: 1
 --- !u!1101 &3051206926910267614
 AnimatorStateTransition:
   m_ObjectHideFlags: 1

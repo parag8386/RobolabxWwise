@@ -44,6 +44,6 @@ Material:
     - _BUILTIN_QueueOffset: 0
     m_Colors:
     - _Scroll_Speed: {r: 0.005, g: 0, b: 0, a: 0}
-    - _Scroll_Value: {r: 90, g: 0, b: 0, a: 0}
+    - _Scroll_Value: {r: 229.30003, g: 0, b: 0, a: 0}
     - _Tiling: {r: 1.5, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []

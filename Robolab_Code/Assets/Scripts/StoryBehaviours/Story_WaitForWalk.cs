@@ -15,6 +15,8 @@ namespace Robolab.Story.Behaviour
             base.OnStateEnter(animator, stateInfo, layerIndex);
 
             _storyGameObjectReferences.RigidbodyFirstPersonController.LockMovement = false;
+
+            _UIReferences.InformationDisplay.SetInformation("Use [W],[A],[S],[D] to move.", 2);
         }
 
         public override void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
@@ -30,6 +32,13 @@ namespace Robolab.Story.Behaviour
                     TransitionToNextState(animator);
                 }
             }
+        }
+
+        public override void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
+        {
+            base.OnStateExit(animator, stateInfo, layerIndex);
+
+            _UIReferences.InformationDisplay.SetInformation(null, -1);
         }
     }
 }
